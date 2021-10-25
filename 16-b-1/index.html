@@ -107,7 +107,7 @@ var translations = {
         
         показатель 16.b.1 -
         
-        Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law - Indicators For The Sustainable Development Goals
+        Наличие независимых национальных правозащитных институтов, действующих в соответствии с Парижскими принципами - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20211025064640">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20211025064837">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -142,7 +142,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20211025064640"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20211025064837"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
         
 
@@ -356,7 +356,7 @@ layout-indicator
             
             показатель 16.b.1
             
-            <span class="lead-copy">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</span>
+            <span class="lead-copy">Наличие независимых национальных правозащитных институтов, действующих в соответствии с Парижскими принципами</span>
           </h1>
         </div>
       </div>
@@ -380,12 +380,12 @@ layout-indicator
   id="indicatorData"
   data-indicatorid='indicator_16-b-1'
   data-id="16-b-1"
-  data-country="Kyrgyzstan"
-  data-charttitle="Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law"
+  data-country="Кыргызская Республика"
+  data-charttitle="Наличие независимых национальных правозащитных институтов, действующих в соответствии с Парижскими принципами"
   data-charttitles="null"
   data-measurementunit=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap=""
   data-startvalues="null"
@@ -427,7 +427,7 @@ layout-indicator
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</caption>
+      <caption>Наличие независимых национальных правозащитных институтов, действующих в соответствии с Парижскими принципами</caption>
       <thead>
         
       </thead>
@@ -439,6 +439,8 @@ layout-indicator
 
   <div id="datatableFooter">
     
+    
+    <p>Географический район: Кыргызская Республика</p>
     
     
     
@@ -486,7 +488,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law</h4>
+          <h4 id="chart-heading" class="chart-title">Наличие независимых национальных правозащитных институтов, действующих в соответствии с Парижскими принципами</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -675,40 +677,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#757575';
-                    ctx.setLineDash([5, 2]);
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -723,6 +717,9 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
 
+        
+        <dt>Географический район:</dt>
+        <dd>Кыргызская Республика</dd>
         
 
         
@@ -759,6 +756,9 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
 
+        
+        <dt>Географический район:</dt>
+        <dd>Кыргызская Республика</dd>
         
 
         
@@ -965,7 +965,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Географический охват </th>
         <td>
           
-            
+            <p>Кыргызская Республика</p>
 
           
         </td>
@@ -1168,6 +1168,10 @@ data-event-label="Change to custom.data_reporter tab"
             
             
 
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-16-0B-01.pdf" target="_blank">
+                Метаданные Целей устойчивого развития Организации Объединённых Наций <span class="visuallyhidden">открывается в новой вкладке</span>
+              </a>
             
 
           
@@ -1389,12 +1393,12 @@ data-event-label="Change to custom.data_reporter tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20211025064640'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20211025064837'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20211025064640"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20211025064837"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
