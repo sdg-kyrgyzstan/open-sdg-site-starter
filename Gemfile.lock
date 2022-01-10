@@ -5,7 +5,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
-    deep_merge (1.2.1)
+    deep_merge (1.2.2)
     ecma-re-validator (0.3.0)
       regexp_parser (~> 2.0)
     em-websocket (0.5.3)
@@ -68,7 +68,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
-    nokogiri (1.12.5-x86_64-linux)
+    nokogiri (1.13.0-x86_64-linux)
       racc (~> 1.4)
     parallel (1.21.0)
     pathutil (0.16.2)
@@ -105,4 +105,4 @@ DEPENDENCIES
   jekyll-remote-theme
 
 BUNDLED WITH
-   2.3.2
+   2.3.4
