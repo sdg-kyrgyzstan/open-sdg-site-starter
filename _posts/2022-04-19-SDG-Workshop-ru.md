@@ -23,6 +23,8 @@ categories:
 
 <img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop3%2019042022.jpg">
 
+<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop2%2019042022.jpg">
+
 <img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Worksop119042022.jpg">
                                                                                                                         
                                                                                                                         
