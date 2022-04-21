@@ -3,15 +3,16 @@ layout: post
 title: Нацстатком провел совещание рабочей группы по внедрению системы мониторинга и отчетности ЦУР
 author: Национальный статистический комитет Кыргызской Республики
 excerpt: Национальный статистический комитет Кыргызской Республики 19 апреля 2022 года провел совещание рабочей группы по внедрению системы мониторинга и отчетности Цели устойчивого развития (ЦУР)
+<img src="https://https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop4%2019042022.jpg" alt="Photo of all participants at workshop" height="300px" align="center">
 language: ru
 permalink: /SDG-workshop/
 categories:
 
 ---
 
-***Национальный статистический комитет Кыргызской Республики 19 апреля 2022 года провел совещание рабочей группы по внедрению системы мониторинга и отчетности Целей устойчивого развития (ЦУР)***
+## Национальный статистический комитет Кыргызской Республики 19 апреля 2022 года провел совещание рабочей группы по внедрению системы мониторинга и отчетности Целей устойчивого развития (ЦУР)
 
-<img src="https://https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop4%2019042022.jpg">
+<img src="https://https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop4%2019042022.jpg" alt="Photo of all participants at the workshop" height="300px" align="center">
 
 ***
 
@@ -21,10 +22,10 @@ categories:
 
 В ходе совещания членами рабочей группы обсужден и принят обновлённый национальный набор показателей ЦУР. Также обсужден проект ранее рассмотренной в НСК Дорожной карты по укреплению статистического потенциала Кыргызской Республики для мониторинга Целей в области устойчивого развития, которая будет являться основным документом, определяющим развитие статистики ЦУР в Кыргызстане.
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop3%2019042022.jpg">
+<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop3%2019042022.jpg" alt="Photo of all participants at the workshop" height="300px" align="left">
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop2%2019042022.jpg">
+<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop2%2019042022.jpg" alt="Photo of all participants at the workshop" height="300px" align="left">
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Worksop119042022.jpg">
+<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Worksop119042022.jpg" alt="Photo of all participants at the workshop" height="300px" align="left">
                                                                                                                         
                                                                                                                         
