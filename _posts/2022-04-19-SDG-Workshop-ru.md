@@ -3,7 +3,7 @@ layout: post
 title: Нацстатком провел совещание рабочей группы по внедрению системы мониторинга и отчетности ЦУР
 author: Национальный статистический комитет Кыргызской Республики
 excerpt: Национальный статистический комитет Кыргызской Республики 19 апреля 2022 года провел совещание рабочей группы по внедрению системы мониторинга и отчетности Цели устойчивого развития (ЦУР)
-<img src="https://https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop4%2019042022.jpg" alt="Photo of all participants at workshop" height="300px" align="center">
+<img src="https://https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop4%2019042022.jpg"
 language: ru
 permalink: /SDG-workshop/
 categories:
