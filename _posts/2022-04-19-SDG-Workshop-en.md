@@ -6,12 +6,13 @@ excerpt: On April 19, 2022, the National Statistical Committee of the Kyrgyz Rep
 language: en
 permalink: /en/SDG-workshop/
 categories:
+- custom.national
 
 ---
 
 ### On April 19, 2022, the National Statistical Committee of the Kyrgyz Republic held a meeting of the working group on the implementation of the monitoring and reporting system for the Sustainable Development Goals (SDGs)
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop4.jpg" alt="Photo of all participants at the workshop" height="300px" align="center">
+<img src="{{ site.baseurl }}/news-images/Workshop2.jpg" alt="Photo of all participants at the workshop" align="left">
 
 ***
 
@@ -23,9 +24,9 @@ During the meeting, the working group members discussed and adopted an updated n
 
 ***
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop3.jpg" alt="Photo of all participants at the workshop" height="300px" align="left">
+<img src="{{ site.baseurl }}/news-images/Workshop3.jpg" alt="Photo of all participants at the workshop" align="left">
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Workshop2.jpg" alt="Photo of all participants at the workshop" height="300px" align="left">
+<img src="{{ site.baseurl }}/news-images/Workshop4.jpg" alt="Photo of all participants at the workshop" align="left">
 
-<img src="https://github.com/sdg-kyrgyzstan/open-sdg-site-starter/blob/develop/news-images/Worksop1.jpg" alt="Photo of all participants at the workshop" height="300px" align="left">
+<img src="{{ site.baseurl }}/news-images/Worksop1.jpg" alt="Photo of all participants at the workshop" align="left">
                        
