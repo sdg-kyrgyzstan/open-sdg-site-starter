@@ -2,6 +2,7 @@
 layout: publication
 title: Sustainable Development Goals Statistics in the Kyrgyz Republic (short version)
 author: National Statistical Committee of the Kyrgyz Republic
+excerpt: null
 language: en
 permalink: /en/sbornikshort/
 published: true
