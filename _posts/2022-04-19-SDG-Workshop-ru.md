@@ -12,7 +12,7 @@ categories:
 
 ### Национальный статистический комитет Кыргызской Республики 19 апреля 2022 года провел совещание рабочей группы по внедрению системы мониторинга и отчетности Целей устойчивого развития (ЦУР)
 
-<img src="{{ site.baseurl}}/news-images/Worksop1.jpg" alt="Photo of all participants at the workshop" align="left">
+<img src="{{ site.baseurl }}/news-images/Worksop1.jpg" alt="Photo of all participants at the workshop" align="left">
 
 ***
 
