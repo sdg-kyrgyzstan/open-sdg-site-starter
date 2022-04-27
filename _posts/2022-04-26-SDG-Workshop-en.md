@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The National Statistical Committee held a meeting of the working group on the implementation of the SDG monitoring and reporting system
+title: The National Statistical Committee, together with ministries and departments, held a meeting of the interdepartmental working group on building a monitoring and reporting system for the indicators of the Sustainable Development Goals "Monitoring and Evaluation"
 author: National Statistical Committee of the Kyrgyz Republic
 excerpt: On April 26, 2022, the National Statistical Committee of the Kyrgyz Republic held a meeting of the interdepartmental working group to build a monitoring and reporting system for the indicators of the Sustainable Development Goals “Monitoring and Evaluation”
 language: en
