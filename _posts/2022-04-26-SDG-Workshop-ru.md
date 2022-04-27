@@ -6,7 +6,7 @@ excerpt: Национальный статистический комитет К
 language: ru
 permalink: /SDG-workshop1/
 categories: 
-- custom.international
+- custom.national
 
 ---
 
