@@ -12,7 +12,7 @@ categories:
 
 ### On April 26, 2022, the National Statistical Committee of the Kyrgyz Republic held a meeting of the interdepartmental working group to build a monitoring and reporting system for the indicators of the Sustainable Development Goals “Monitoring and Evaluation”
 
-<img src="{{ site.baseurl }}/news-images/SDG_Workshop2.jp" alt="Photo of all participants at the workshop" align="left">
+<img src="{{ site.baseurl }}/news-images/SDG_Workshop2.jpg" alt="Photo of all participants at the workshop" align="left">
 
 ***
 
@@ -30,7 +30,7 @@ During the meeting, the interdepartmental working group discussed and adopted an
 
 ***
 
-<img src="{{ site.baseurl }}/news-images/SDG_Workshop1.jpg" alt="Photo of all participants at the workshop" align="left">
+<img src="{{ site.baseurl }}/news-images/SDG_Worksop1.jpg" alt="Photo of all participants at the workshop" align="left">
 
 ***
 
