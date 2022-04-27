@@ -32,7 +32,7 @@ categories:
 
 ***
 
-<img src="{{ site.baseurl }}/news-images/SDG_Workshop1.jpg" alt="Photo of all participants at the workshop" align="left">
+<img src="{{ site.baseurl }}/news-images/SDG_Worksop1.jpg" alt="Photo of all participants at the workshop" align="left">
 
 ***
 
