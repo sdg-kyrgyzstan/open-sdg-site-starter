@@ -30,7 +30,7 @@ categories:
 
 ***
 
-<img src="{{ site.baseurl }}/news-images/11-13may-workshop3.jpg" alt="Photo of all participants at the workshop" align="left">
+<img src="{{ site.baseurl }}/news-images/11-13may-workshop2.jpg" alt="Photo of all participants at the workshop" align="left">
 
 
 
