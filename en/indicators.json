@@ -191,7 +191,7 @@
         },
         {
           "id": "2-1-1-1e",
-          "title": "Average per capita consumption of basic food products in relation to the average physiological norms of consumption, in",
+          "title": "Average per capita consumption of basic food products in relation to the average physiological norms of consumption, in percent",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/2-1-1-1e",
@@ -251,6 +251,14 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/2-3-2",
+          "status": "notstarted"
+        },
+        {
+          "id": "2-3-3-1c",
+          "title": "Баланс потребления рыбной продукции на душу населения",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/2-3-3-1c",
           "status": "notstarted"
         },
         {
