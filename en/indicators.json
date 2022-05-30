@@ -2502,6 +2502,14 @@
           "status": "notstarted"
         },
         {
+          "id": "17-11-1-1",
+          "title": "Импорт и экспорт товаров ИКТ в процентах к совокупному объему импорта/экспорта товаров",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/17-11-1-1",
+          "status": "notstarted"
+        },
+        {
           "id": "17-11-1-1a",
           "title": "ICT goods import as a percentage of total goods import",
           "description": "",
