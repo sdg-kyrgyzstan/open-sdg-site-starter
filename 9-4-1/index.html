@@ -107,7 +107,7 @@ var translations = {
         
         показатель 9.4.1 -
         
-        Выбросы CO2 на единицу добавленной стоимости - Indicators For The Sustainable Development Goals
+        CO2 emission per unit of value added - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220530095836">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220530101025">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -142,7 +142,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220530095836"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220530101025"><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
         
 
@@ -356,7 +356,7 @@ layout-indicator
             
             показатель 9.4.1
             
-            <span class="lead-copy">Выбросы CO2 на единицу добавленной стоимости</span>
+            <span class="lead-copy">CO2 emission per unit of value added</span>
           </h1>
         </div>
       </div>
@@ -380,12 +380,12 @@ layout-indicator
   id="indicatorData"
   data-indicatorid='indicator_9-4-1'
   data-id="9-4-1"
-  data-country="Кыргызская Республика"
-  data-charttitle="Выбросы CO2 на единицу добавленной стоимости"
+  data-country="Kyrgyzstan"
+  data-charttitle="CO2 emission per unit of value added"
   data-charttitles="null"
   data-measurementunit=""
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-geocoderegex=""
   data-showmap=""
   data-startvalues="null"
@@ -427,7 +427,7 @@ layout-indicator
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>Выбросы CO2 на единицу добавленной стоимости</caption>
+      <caption>CO2 emission per unit of value added</caption>
       <thead>
         
         
@@ -484,8 +484,6 @@ layout-indicator
   <div id="datatableFooter">
     
     
-    <p>Географический район: Кыргызская Республика</p>
-    
     
     
   </div>
@@ -532,7 +530,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">Выбросы CO2 на единицу добавленной стоимости</h4>
+          <h4 id="chart-heading" class="chart-title">CO2 emission per unit of value added</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -721,32 +719,40 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
+// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.stackedDisaggregation) {
     var overrides = {
-      options: {
-        scales: {
-          xAxes: [{ stacked: true }],
-          yAxes: [{ stacked: true }],
-        }
-      }
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#757575';
+                    ctx.setLineDash([5, 2]);
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
     };
-    // If we have stackedDisaggregation, we need to group datasets into stacks.
-    config.data.datasets.forEach(function(dataset) {
-      var disaggregation = $.extend({}, dataset.disaggregation);
-      // We're going to "stringify" each combination of disaggregations in order
-      // to place them in their own "stacks". To place "stacked" disaggregations
-      // into the same stack, we set them as "samestack" before stringifying.
-      // Note that the string "samestack" is completely arbitrary.
-      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
-        disaggregation[info.stackedDisaggregation] = 'samestack';
-      }
-      // Use the disaggregation as a unique id for each stack.
-      dataset.stack = JSON.stringify(disaggregation);
-    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
-  }
 });
 </script>
 
@@ -761,9 +767,6 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
 
-        
-        <dt>Географический район:</dt>
-        <dd>Кыргызская Республика</dd>
         
 
         
@@ -800,9 +803,6 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
 
-        
-        <dt>Географический район:</dt>
-        <dd>Кыргызская Республика</dd>
         
 
         
@@ -1007,7 +1007,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Географический охват </th>
         <td>
           
-            <p>Кыргызская Республика</p>
+            
 
           
         </td>
@@ -1021,7 +1021,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Единица измерения </th>
         <td>
           
-            <p>тыс. тонн</p>
+            
 
           
         </td>
@@ -1208,10 +1208,6 @@ data-event-label="Change to custom.data_reporter tab"
             
             
 
-            
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-09-04-01.pdf " target="_blank">
-                Метаданные Целей устойчивого развития Организации Объединённых Наций <span class="visuallyhidden">открывается в новой вкладке</span>
-              </a>
             
 
           
@@ -1433,12 +1429,12 @@ data-event-label="Change to custom.data_reporter tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220530095836'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220530101025'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220530095836"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220530101025"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
