@@ -113,15 +113,23 @@ non_global_metadata: indicator.national_metadata
 languages:
   - ru
   - en
-  
+
+logos:
+  - language: ru
+    src: assets/img/SDG_logo_ru.png
+    alt: Цели в области устойчивого развития - 17 Целей, чтобы преобразовать наш мир
+  - language: en
+    src: assets/img/SDG_logo_en.png
+    alt: Sustainable Development Goals - 17 Goals to Transform our World
+
 metadata_tabs:
-  indicator_information:
+  - scope: indicator_information
     title: custom.indicator_information
     blurb: custom.indicator_information_blurb
-  national:
+  - scope: national
     title: indicator.national_metadata
     blurb: indicator.national_metadata_blurb
-  data_reporter:
+  - scope: data_reporter
     title: custom.data_reporter
     blurb: custom.data_reporter_blurb
 
