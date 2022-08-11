@@ -123,7 +123,7 @@ metadata_tabs:
     description: indicator.global_metadata_blurb
   - scope: sources
     title: indicator.sources
-    description: ''
+    description: indicator.sources_blurb
 
 
 # This makes sure that all pages have a language.
