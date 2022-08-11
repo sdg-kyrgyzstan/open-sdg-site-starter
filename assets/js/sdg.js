@@ -1023,7 +1023,7 @@ function nonFieldColumns() {
     'Unit multiplier',
     'Unit measure',
   ];
-  var timeSeriesAttributes = null;
+  var timeSeriesAttributes = [{"field":"COMMENT_TS","label":"indicator.footnote"},{"field":"DATA_LAST_UPDATE","label":"metadata_fields.national_data_update_url"}];
   timeSeriesAttributes.forEach(function(tsAttribute) {
     columns.push(tsAttribute.field);
   });
@@ -2387,7 +2387,7 @@ function getTimeSeriesAttributes(rows) {
     return [];
   }
   var timeSeriesAttributes = [],
-      possibleAttributes = null,
+      possibleAttributes = [{"field":"COMMENT_TS","label":"indicator.footnote"},{"field":"DATA_LAST_UPDATE","label":"metadata_fields.national_data_update_url"}],
       firstRow = rows[0],
       firstRowKeys = Object.keys(firstRow);
   possibleAttributes.forEach(function(possibleAttribute) {
@@ -3242,7 +3242,7 @@ var indicatorView = function (model, options) {
   }
 
   this.updateTimeSeriesAttributes = function(tsAttributeValues) {
-    var timeSeriesAttributes = null;
+    var timeSeriesAttributes = [{"field":"COMMENT_TS","label":"indicator.footnote"},{"field":"DATA_LAST_UPDATE","label":"metadata_fields.national_data_update_url"}];
     timeSeriesAttributes.forEach(function(tsAttribute) {
       var field = tsAttribute.field,
           valueMatch = tsAttributeValues.find(function(tsAttributeValue) {
