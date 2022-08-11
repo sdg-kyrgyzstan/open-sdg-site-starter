@@ -115,15 +115,15 @@ languages:
   - en
   
 metadata_tabs:
+  - scope: indicator_information
+    title: custom.indicator_information
+    blurb: custom.indicator_information_blurb
   - scope: national
     title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: indicator.sources_blurb
+    blurb: indicator.national_metadata_blurb
+  - scope: data_reporter
+    title: custom.data_reporter
+    blurb: custom.data_reporter_blurb
 
 
 # This makes sure that all pages have a language.
