@@ -138,7 +138,7 @@ var translations = {
         
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811083043">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105204">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -146,7 +146,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811083043">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105204">
         
 
         
@@ -414,7 +414,7 @@ layout-indicator
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="{&quot;indicator.download_source_excel&quot;:{&quot;href&quot;:&quot;downloads/data-excel/11.2.1.xlsx&quot;},&quot;indicator.download_source_sdmx&quot;:{&quot;href&quot;:&quot;downloads/data-sdmx/11.2.1.xml&quot;}}"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;AGE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;от 15 до 28 лет&quot;,&quot;от 29 до 62 лет (население трудоспособного возраста: женщины до 57 лет, мужчины до 62 лет)&quot;,&quot;58 лет и старше (население старше струдоспособного возраста: женщины 58 лет и старше, мужчины 63 лет и старше)&quot;]},&quot;title&quot;:&quot;Возраст&quot;},{&quot;name&quot;:&quot;EDUCATION_LEV&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Начальное образование&quot;,&quot;Первый этап среднего образования&quot;,&quot;Второй этап среднего образования&quot;,&quot;Послесреднее нетретичное образование&quot;,&quot;Высшее образование (бакалавриат и магистратура или эквиваленты)&quot;]},&quot;title&quot;:&quot;Уровень образования&quot;},{&quot;name&quot;:&quot;INCOME_WEALTH_QUANTILE&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Квинтиль 1 (беднейшие)&quot;,&quot;Квинтиль 2&quot;,&quot;Квинтиль 3&quot;,&quot;Квинтиль 4&quot;,&quot;Квинтиль 5 (богатейшие)&quot;]},&quot;title&quot;:&quot;Уровень дохода или квантиль благосостояния&quot;},{&quot;name&quot;:&quot;REF_AREA&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Иссык-Кульская область&quot;,&quot;Джалал-Абадская область&quot;,&quot;Нарынская область&quot;,&quot;Баткенская область&quot;,&quot;Ошская область&quot;,&quot;Таласская область&quot;,&quot;Чуйская область&quot;,&quot;г. Бишкек&quot;,&quot;г. Ош&quot;]},&quot;title&quot;:&quot;Территория&quot;},{&quot;name&quot;:&quot;SEX&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Женщины&quot;,&quot;Мужчины&quot;]},&quot;title&quot;:&quot;Пол&quot;},{&quot;name&quot;:&quot;URBANISATION&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;&quot;,&quot;Сельская&quot;,&quot;Городская&quot;]},&quot;title&quot;:&quot;Тип местности&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;},{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Year&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;Reference area&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Batken&quot;,&quot;Jalal-Abad&quot;,&quot;Issyk-Kul&quot;,&quot;Naryn&quot;,&quot;Osh&quot;,&quot;Talas&quot;,&quot;Chui&quot;,&quot;Bishkek (city)&quot;,&quot;Osh (city)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Reference area&quot;},{&quot;name&quot;:&quot;Sex&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Male&quot;,&quot;Female&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Sex&quot;},{&quot;name&quot;:&quot;Age&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;15 to 28 years old&quot;,&quot;29 to 62 years old (working age population: women under 57 years old, men under 62 years old)&quot;,&quot;58 years old and over (population over working age: women 58 years and older, men 63 years and older)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Age&quot;},{&quot;name&quot;:&quot;Degree of urbanisation&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Urban&quot;,&quot;Rural&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Degree of urbanisation&quot;},{&quot;name&quot;:&quot;Income or wealth quantile&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Quintile 1 (poorest)&quot;,&quot;Quintile 2&quot;,&quot;Quintile 3&quot;,&quot;Quintile 4&quot;,&quot;Quintile 5 (richest)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Income or wealth quantile&quot;},{&quot;name&quot;:&quot;Education level&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Primary education&quot;,&quot;Lower secondary education&quot;,&quot;Upper secondary education&quot;,&quot;Post-secondary non-tertiary education&quot;,&quot;Tertiary education (Bachelor’s and Master's or equivalent)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Education level&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -1596,12 +1596,12 @@ c. Комфорт и безопасность среды расположени�
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811083043'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105204'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811083043"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105204"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
