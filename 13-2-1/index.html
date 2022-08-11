@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811115326">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811133031">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811115326">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811133031">
         
 
         <!--[if IE]>
@@ -451,6 +451,27 @@ layout-indicator
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
+                id="tab-indicator_information"
+                data-bs-target="#indicator_information"
+                aria-controls="indicator_information"
+                role="tab"
+                data-on="click"
+data-event-category="Tab change"
+data-event-action="Change metadata view"
+data-event-label="Change to custom.indicator_information tab"
+
+            >Информация об индикаторе</button>
+        </li>
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link "
+                data-bs-toggle="tab"
                 id="tab-national"
                 data-bs-target="#national"
                 aria-controls="national"
@@ -472,37 +493,16 @@ data-event-label="Change to indicator.national_metadata tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-global"
-                data-bs-target="#global"
-                aria-controls="global"
+                id="tab-data_reporter"
+                data-bs-target="#data_reporter"
+                aria-controls="data_reporter"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to indicator.global_metadata tab"
+data-event-label="Change to custom.data_reporter tab"
 
-            >Глобальные метаданные</button>
-        </li>
-    
-        
-        
-        
-        
-        <li role="presentation" class="nav-item">
-            <button
-                type="button"
-                class="nav-link "
-                data-bs-toggle="tab"
-                id="tab-sources"
-                data-bs-target="#sources"
-                aria-controls="sources"
-                role="tab"
-                data-on="click"
-data-event-category="Tab change"
-data-event-action="Change metadata view"
-data-event-label="Change to indicator.sources tab"
-
-            >Источники</button>
+            >Поставщики данных</button>
         </li>
     
     
@@ -520,7 +520,97 @@ data-event-label="Change to indicator.sources tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="national">
+        <div role="tabpanel" class="tab-pane active" id="indicator_information">
+            <article>
+                <p>Данная таблица предоставляет информацию об индикаторе</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Название показателя </th>
+        <td>
+          
+            <p>13.2.1 Число стран, сообщивших о создании или введении в действие комплексной политики/стратегии/ плана, повышающих их способность адаптироваться к неблагоприятным последствиям изменения климата и содействующих развитию их потенциала противодействия климатическим изменениям и снижению выбросов парниковых газов таким образом, чтобы это не ставило под угрозу производство продовольствия (включая национальный адаптационный план, определяемый на национальном уровне вклад, национальную систему информирования населения, подготовку двухгодичного обновленного доклада или другое)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Название задачи </th>
+        <td>
+          
+            <p>13.2 Включить меры реагирования на изменение климата в политику, стратегии и планирование на национальном уровне</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Цель </th>
+        <td>
+          
+            <p>Цель 13. Принятие срочных мер по борьбе с изменением климата и его последствиями</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="national">
             <article>
                 <p>В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.</p>
 
@@ -778,9 +868,9 @@ data-event-label="Change to indicator.sources tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="global">
+        <div role="tabpanel" class="tab-pane " id="data_reporter">
             <article>
-                <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
+                <p>Данная таблица предоставляет информацию о поставщиках данных</p>
 
                 <table class="table">
   
@@ -807,10 +897,75 @@ data-event-label="Change to indicator.sources tab"
   
   
   
+      
+      
+      <tr>
+        <th scope="row">Организация </th>
+        <td>
+          
+            <p>Государственное агентство охраны окружающей среды и лесного хозяйства при Правительстве Кыргызской Республики</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
+      
+      
+      <tr>
+        <th scope="row">Контактное лицо (лица)/Координатор </th>
+        <td>
+          
+            <p>Байдакова Н.С.</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
+      
+      
+      <tr>
+        <th scope="row">Электронная почта контактного лица </th>
+        <td>
+          
+            <p>banatalia@yandex.com</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
+      
+      
+      <tr>
+        <th scope="row">Телефон контактного лица </th>
+        <td>
+          
+            <p>0(312) 54-94-87</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
+      
+      
+      <tr>
+        <th scope="row">Сайт организации </th>
+        <td>
+          
+            <p>www.ecology.gov.kg</p>
+
+          
+        </td>
+        </tr>
+        
+      
   
   
   
@@ -821,23 +976,6 @@ data-event-label="Change to indicator.sources tab"
   
   
 </table>
-
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="sources">
-            <article>
-                <p>indicator.sources_blurb</p>
-
-                <!-- Count the non-empty sources (up to 5) -->
-
-
-
-
 
             </article>
         </div>
@@ -924,12 +1062,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811115326'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811133031'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811115326"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811133031"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
