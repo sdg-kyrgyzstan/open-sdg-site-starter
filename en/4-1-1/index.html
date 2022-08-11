@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -162,7 +162,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
     
   </div>
 </div>
@@ -695,16 +695,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >National Metadata</button>
         </li>
     
         
@@ -716,16 +716,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Global Metadata</button>
         </li>
     
         
@@ -737,16 +737,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Sources</button>
         </li>
     
     
@@ -764,9 +764,295 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>This table provides metadata for the actual indicator available from Kyrgyzstan statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Kyrgyz statistics, this table should be consulted for information on national methodology and other Kyrgyz-specific metadata information.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definitions </th>
+        <td>
+          
+            <p>1) Percentage of children and young people at the end of primary education and the end of lower secondary education achieving at least a minimum proficiency level in (a) reading and (b) mathematics.
+2) Percentage of children and young people in Grade 2 or 3 of primary education, at the end of primary education and the end of lower secondary education achieving at least a minimum proficiency level in (a) reading and (b) mathematics. The minimum proficiency level will be measured relative to new common reading and mathematics scales currently in development. 
+As of August 2018 there is no globally accepted definition of the minimum proficiency level. As an interim reporting strategy, data reported according to the minimum proficiency level for each assessment</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Concepts </th>
+        <td>
+          
+            <p>1) Minimum proficiency level is the benchmark of basic knowledge in a domain (mathematics or reading) measured through learning assessments. For example, the Programme for International Student Assessment (PISA) reading test has six proficiency levels, of which Level 2 is described as the minimum proficiency level. In Trends in International Mathematics and Science Study (TIMSS) and Progress in International Reading Literacy Study (PIRLS), there are four proficiency levels: Low, Intermediate, High and Advanced. Students reaching the Intermediate benchmark are able to apply basic knowledge in a variety of situations, similar to the idea of minimum proficiency. Currently, there are no common standards validated by the international community or countries. The indicator shows data published by each of the agencies and organizations specialized in cross-national learning assessments.</p>
+
+<p>2) The National Assessment of Student Educational Achievements (NASEA) in the Kyrgyz Republic has been conducted four times. The aim of NASEA is to obtain objective, scientifically based data of what students know and able to do in accordance with the national education standard and to identify factors impacting educational outcomes. The study was conducted in grades 4 and 8 in Mathematics, Reading and Understanding and Sciences (in the 4th grade as part of the Native Studies subject).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Rationale and interpretation </th>
+        <td>
+          
+            <p>1) The indicator is a direct measure of the learning outcomes achieved in the two subject areas at the end of the relevant stages of education. The three measurement points will have their own established minimum standard. There is only one threshold that divides students into above and below minimum:
+(a) Below minimum is the proportion or percentage of students who do not achieve a minimum standard as set up by countries according to the globally-defined minimum competencies.
+(b) Above minimum is the proportion or percentage of students who have achieved the minimum standards. Due to heterogeneity of performance levels set by national and cross-national assessments, these performance levels will have to be mapped to the globally-defined minimum performance levels. Once the performance levels are mapped, the global education community will be able to identify for each country the proportion or percentage of children who achieved minimum standards.</p>
+
+<p>NASEA study was conducted based on stratified sample across the Kyrgyz Republic. The following strata were selected: categories of schools (Bishkek, regional centers and small towns, rural schools), languages of instruction (Kyrgyz, Russian, Uzbek) administrative regions of Kyrgyzstan.
+Tests and questionnaires for students, school administrators and teachers are the NASEA tools. NASEA assessment matches results to students’ achievement levels.
+The study uses four levels of educational achievement: below the basic (level 1), basic (level 2), above the basic (level 3), and high achievement (level 4). The minimum acceptable level is basic (2). The levels of students’ achievements were identified both in general terms and for each subject area, describing students results at a given level in accordance with national standards and programmes.
+Grades 4 and 8 have been chosen for the study for the following reasons:
+• Grade 4 completes primary school and serves as the basis for further education. Knowledge and skills acquired by students during primary school can be evaluated upon completion of this stage. It is particularly important to know what students have actually learned at the end of primary school, as further successful learning depends on it.
+• Grade 8 for assessment was chosen by the Ministry of Education and Science. This grade precedes the final year of compulsory education, and assessment at this stage makes it possible to make the necessary adjustments in grade 9.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            <p>1) The indicator is calculated as the percentage of children and/or young people at the relevant stage of education achieving or exceeding a pre-defined proficiency level in a given subject.
+Percentage of children between 7-14 years of age who successfully completed three basic reading and mathematics assignments.
+2) 1,000 points on a scale describing students’ achievements at each level.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            <p>1) While data from many national assessments are available now, every country sets its own standards so the performance levels might not be comparable.
+2) NASEA measures students’ achievements against achievement levels rather than school grades.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data availability and gaps </th>
+        <td>
+          
+            <p>1) Data available on the NSC website
+2) NASEA data available at:  http://testing.kg</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>1) By age or age-group of students, sex, location, socio-economic status, migrant status and ethnicity.
+2) By sex, schools location and language of instruction.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability with international data/standards </th>
+        <td>
+          
+            <p>1) Currently every country sets its own standards so the performance levels might not be comparable.
+2) NASEA results are not comparable with other international data because the tool was developed based on national educational standards and programmes of the Kyrgyz Republic.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">References and documentation </th>
+        <td>
+          
+            <p>KR National SDG Reporting Platform:
+https://sustainabledevelopment-kyrgyzstan.github.io
+Metadata of global and thematic indicators for SDG4 monitoring and review and «Education 2030»programme.
+United Nations Educational, Scientific and Cultural Organization. UNESCO Institute for statistics 2018.
+The National Assessment of Student Educational Achievements (NASEA). Study Report. Bishkek (2008, 2010, 2014, 2018)Website: http://testing.kg</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
+          
+            <p>1) Multiple Indicator Cluster Survey, 2018 (MICS)</p>
+
+<p>2) Ministry of Education and Science of the Kyrgyz Republic. The National Assessment of Student Educational Achievements (NASEA). Study Report. Bishkek (2008, 2010, 2014, 2018)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data collection methods </th>
+        <td>
+          
+            <p>1) ComputerAssisted Personal Interview (CAPI) have been used for surveys. The application for data collection, including a special CAPI data management platform, is based on CSPro (Census and Survey Processing System) version 6.3. Procedures and standard software developed under the global CAPI programme were adapted to the final version of the 2018 CAPI questionnaire for Kyrgyzstan and used in the survey.
+2) Stratified sample across the Kyrgyz Republic. Categories of schools (Bishkek, regional centers and small towns, rural schools), languages of instruction (Kyrgyz, Russian, Uzbek) administrative regions of Kyrgyzstan.
+Tests and questionnaires (students, school administrators and teachers)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-04-01-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+
                 <table class="table">
   
   
@@ -814,98 +1100,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -992,12 +1194,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -783,16 +783,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >Национальные метаданные</button>
         </li>
     
         
@@ -804,16 +804,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Глобальные метаданные</button>
         </li>
     
         
@@ -825,16 +825,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Источники</button>
         </li>
     
     
@@ -852,9 +852,270 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Географический охват </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Единица измерения </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Определения </th>
+        <td>
+          
+            <p>Доля мужчин, женщин и детей всех возрастов, живущих в бедности во всех ее проявлениях (многомерная бедность) характеризует состояние, когда индивид не может обеспечивать существование с учётом сложившихся в обществе социальных норм и общепринятых стандартов.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Основные понятия </th>
+        <td>
+          
+            <p>Измерение уровня бедности может осуществляться не только показателем потребления или дохода, а также с использованием депривационного подхода. Согласно ему, бедными считаются индивиды, чьё потребление не соответствует принятому в обществе стандарту, у которых нет доступа к определённому набору благ и услуг.                                                      Многомерный подход к измерению бедности в Кыргызской Республике фокусируется на пяти аспектах измерения (монетарная бедность, здоровье, жилищные условия, продовольственная безопасность и образование), включающих 11 индикаторов, позволяя, тем самым, получить более углубленное отображение реальной бедности и ее проявлений.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Обоснование и толкование </th>
+        <td>
+          
+            <p>Измерения и индикаторы были выбраны в соответствии с несколькими руководящими принципами: устоявшая практика в рамках многомерных индексов благосостояния, актуальность для контекста Кыргызской Республики, актуальность в контексте Целей устойчивого развития (ЦУР) и доступность данных.
+По каждому измерению представлены теоретические и практические обоснования, подчеркивающие их значимость как серьезных определяющих факторов благополучия населения. В НСУР Кыргызской Республики обозначены цели достижения к 2040 году по каждому из аспектов измерения многомерной бедности.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Метод расчета </th>
+        <td>
+          
+            <p>Национальный индекс многомерной бедности (НИМБ) разработан Национальным статистическим комитетом Кыргызской Республики, при поддержке Детского фонда ООН и Программы развития ООН. При расчете НИМБ была использована международно признанная методология Сабины Алкир и Джеймса Фостера. НИМБ характеризуется основными тремя показателями многомерной бедности. Это – распространённость многомерной бедности (Н), средняя интенсивность лишений среди бедных (А) и Национальный индекс многомерной бедности (М).                                                К числу многомерно бедных отнесены лица, испытывающие лишения по крайней мере, по одной трети взвешенных индикаторов.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Комментарий и ограничения </th>
+        <td>
+          
+            <p>Национальный индекс многомерной бедности и его составляющие позволят оценить, какие изменения происходят в качестве жизни населения с течением времени и для каких групп трансформация является более динамичной. Будучи реализованными на межстрановом уровне, подобные исследования дают возможность сопоставить результаты политики отдельных государств, на национальном – отвечают потребности сравнительного анализа ситуации в отдельных регионах страны.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Гарантия качества </th>
+        <td>
+          
+            <p>Исходные данные, проверяются на качество, прежде чем они будут использованы для дальнейшего анализа.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Доступность данных и пробелы </th>
+        <td>
+          
+            <p>Данные доступны с 2016 года.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Разбивка </th>
+        <td>
+          
+            <p>Национальный и субнациональный уровень, по типу местности, полу и возрастным группам.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Сопоставимость с международными данными/стандартами </th>
+        <td>
+          
+            <p>Используется стандартная методология, при этом набор индикаторов, включенных в измерения характерен для Кыргызской Республики.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Ссылки и документация </th>
+        <td>
+          
+            <p>Национальная платформа отчётности ЦУР КР:  https://sustainabledevelopment-kyrgyzstan.github.io</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Источники данных </th>
+        <td>
+          
+            <p>Интегрированное выборочное обследование бюджетов домашних хозяйств и рабочей силы (далее ИОДХ).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Методы сбора данных </th>
+        <td>
+          
+            <p>Сбор данных осуществляется посредством вопросников ИОДХ с применением кластерной выборки, построенной на последней доступной Переписи населения и актуализированных списках жилых помещений. В опросах ИОДХ используется персональное интервью с использованием планшетных компьютеров (ComputerAssisted Personal Interview, CAPI).
+Сбор данных осуществляется на ежеквартальной основе, разработка индикатора производится по итогам года.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Ссылка на метаданные ООН </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-02-02.pdf" target="_blank">
+                Метаданные Целей устойчивого развития Организации Объединённых Наций <span class="visuallyhidden">открывается в новой вкладке</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
+
                 <table class="table">
   
   
@@ -902,98 +1163,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -1080,12 +1257,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

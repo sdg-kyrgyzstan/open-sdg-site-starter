@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -162,7 +162,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
     
   </div>
 </div>
@@ -735,16 +735,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >National Metadata</button>
         </li>
     
         
@@ -756,16 +756,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Global Metadata</button>
         </li>
     
         
@@ -777,16 +777,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Sources</button>
         </li>
     
     
@@ -804,9 +804,283 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>This table provides metadata for the actual indicator available from Kyrgyzstan statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Kyrgyz statistics, this table should be consulted for information on national methodology and other Kyrgyz-specific metadata information.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definitions </th>
+        <td>
+          
+            <p>The number of children engaged in child labour corresponds to the number of children reported to be in child labour during the reference period (usually the week prior to the survey).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Concepts </th>
+        <td>
+          
+            <p>The term child labour refers to the subset of children’s activities that is injurious, negative or undesirable to children and that should be targeted for elimination. Child labour is a legal concept rather than a statistical one, and the international legal standards that define it are therefore the necessary frame of reference for child labour statistics. The three principal international conventions on child labour – ILO Convention No. 138 (Minimum Age) (C138), ILO Convention No. 182 (Worst Forms) (C182), and the United Nations Convention on the Rights of the Child (CRC), together set the legal boundaries for child labour, and provide the legal basis for national and international actions against it.
+In December 2008, the International Conference of Labour Statisticians (ICLS) adopted the Resolution concerning statistics of child labour. This Resolution helps in translating the legal standards governing child labour into statistical terms. In particular, the Resolution is designed to set standards for the collection, compilation and analysis of national child labour statistics, and to guide countries in updating their existing statistical system in this field.
+In accordance with the Resolution, and on the basis of the production boundary set by the United Nations System of National Accounts (SNA), child labour is defined for measurement purposes to include all persons aged 5 to 17 years who are engaged in one or more of the following activities during a specified time period: 
+• hazardous work (18th ICLS, paragraphs 21 to 32); 
+• worst forms of child labour other than hazardous work (18th ICLS, paragraphs 33 to 34); and 
+• employment below the minimum working age, excluding, where applicable, “light work”, performed by children aged not less than 12 or 13 years (18th ICLS, paragraphs 35 to 37).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Rationale and interpretation </th>
+        <td>
+          
+            <p>Far too many children in the world remain trapped in child labour, compromising their individual future. According to the latest ILO global estimates, about 168 million children worldwide are child labourers, accounting for almost 11 percent of the child population.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            <p>The measurement methodology used by the ILO in its global estimates on child labour, building on the ICLS statistical definition, classifies child labour on the basis of the following criteria:
+• Ages 5 to 11: at least 1 hour of economic activity per week;
+• Ages 12 to 14: at least 14 hour of economic activity per week in all forms of economic activity except permissible “light” work, where light work is operationally defined as economic activity that (i) does not exceed 14 hours per week and that (ii) is not hazardous in nature; and
+• Ages 15 to 17: work in designated hazardous industries, or in designated hazardous occupations, or for long hours. Long hours are defined as 43 or more hours during the reference week.
+The proportion of children in child labour is calculated as the number of children in child labour divided by the total number of children in the population. For the purposes of this indicator, children include all persons aged 5 to 17.</p>
+
+<p>Children aged 5-17: Number of children aged 5-17 reported in child labour during the week prior to the survey divided by the total number of children aged 5-17 in the population, multiplied by 100.</p>
+
+<p>Children aged 5-14: Number of children aged 5-14 reported in child labour during the week prior to the survey divided by the total number of children aged 5-14 in the population, multiplied by 100.</p>
+
+<p>Children aged 15-17: Number of children aged 15-17 reported child labour during the week prior to the survey divided by the total number of children aged 15-17 in the population, multiplied by 100.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            <p>Child labour estimates based on the statistical standards set out in the ICLS resolution represent useful benchmarks for international comparative purposes but are not necessarily consistent with estimates based on national child labour legislation.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data availability and gaps </th>
+        <td>
+          
+            <p>Nationally representative and comparable data are currently available for 102 countries, including Kyrgyz Republic.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>Disaggregation by sex and age group (age groups 5-14 and 15-17).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability with international data/standards </th>
+        <td>
+          
+            <p>ILO Convention №138 contains a number of flexibility clauses left to the discretion of the competent national authority in consultation (where relevant) with workers’ and employers’ organizations (e.g., minimum ages, scope of application). This means that there is no single legal definition of child labour across countries, and thus, no single statistical measure of child labour consistent with national legislation across countries.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">References and documentation </th>
+        <td>
+          
+            <p>KR National SDG Reporting Platform: https://sustainabledevelopment-kyrgyzstan.github.io</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
+          
+            <p>Multiple Indicator Cluster Survey (MICS)</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data collection methods </th>
+        <td>
+          
+            <p>ComputerAssisted Personal Interview (CAPI) have been used for surveys. The application for data collection, including a special CAPI data management platform, is based on CSPro (Census and Survey Processing System) version 6.3. Procedures and standard software developed under the global CAPI programme were adapted to the final version of the 2018 CAPI questionnaire for Kyrgyzstan and used in the survey.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-07-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+
                 <table class="table">
   
   
@@ -854,98 +1128,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -1032,12 +1222,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

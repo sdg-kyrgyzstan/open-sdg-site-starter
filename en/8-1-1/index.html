@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -162,7 +162,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
     
   </div>
 </div>
@@ -855,16 +855,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >National Metadata</button>
         </li>
     
         
@@ -876,16 +876,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Global Metadata</button>
         </li>
     
         
@@ -897,16 +897,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Sources</button>
         </li>
     
     
@@ -924,9 +924,286 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>This table provides metadata for the actual indicator available from Kyrgyzstan statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Kyrgyz statistics, this table should be consulted for information on national methodology and other Kyrgyz-specific metadata information.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definitions </th>
+        <td>
+          
+            <p>GDP per capita is the nominal value of goods and services produced over a period of time per person of gross domestic product.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Concepts </th>
+        <td>
+          
+            <p>Gross Domestic Product (GDP) is the key indicator of national accounts, describing economic development and trends in economic growth of the Kyrgyz Republic over a certain period. It measures the monetary value of final goods and services produced in the country for final consumption, accumulation and export.
+Actual population is population residing in the country at the time of registration, regardless of the place of residence.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Rationale and interpretation </th>
+        <td>
+          
+            <p>GDP per capita measures the standard of living of country’s population and determines contributions to international organizations.
+GDP per capita production in monetary equivalent is calculated in KG soms and US dollars (at the official NBKR rate).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            <p>GDP per capita is the ratio of the total gross domestic product produced over a period of time to the number of people.
+GDPPC=GDP/P 
+where, 
+GDPPC – GDP per capita;
+GDP – nominal GDP; 
+P – actual population.
+The annual growth rate of real Gross Domestic Product (GDP) per capita is calculated as follows:
+a. Convert annual real GDP in domestic currency at 2010 prices for a country or area to US dollars at 2010 prices using the 2010 exchange rates.
+b. Divide the result by the population of the country or area to obtain annual real GDP per capita in constant US dollars at 2010 prices.
+c. Calculate the annual growth rate of real GDP per capita in year t+ 1 using the following formula:
+   G(t+1) – G(t)
+——————–*100
+       G(t),</p>
+
+<p>where G(t+1) is real GDP per capita in 2010 US dollars in year t+1 and G(t) is real GDP per capita in 2010 US dollars in year t</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            <p>Per capita GDP is one of the key factors determining country’s economic development, since it allows estimating growth rates of countries by population size.
+A positive change in this indicator can be interpreted as an increase in the average standard of living of the residents in a country. Value-added production growth is the basic determinant of functioning of the economy. By distributing total output per unit of population, it is possible to measure development impact of output growth rates per person. The indicator can, in fact, be considered as an aggregate indicator of socio-economic development.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
+          
+            <p>Logical and arithmetic control of recorded data is carried out.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data availability and gaps </th>
+        <td>
+          
+            <p>Time series have been available since 1993. 
+Data are published in various NSC publications and its website.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>By economic activity types and regions of the Kyrgyz Republic</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability with international data/standards </th>
+        <td>
+          
+            <p>Currently calculated using the 1993 SNA methodology, which makes the indicator not fully comparable with data from countries using 2008 SNA.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">References and documentation </th>
+        <td>
+          
+            <p>KR National SDG Reporting Platform: https://sustainabledevelopment-kyrgyzstan.github.io</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
+          
+            <p>The National Statistical Committee collects, processes and calculates data by using statistical reporting forms and sample surveys</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data collection methods </th>
+        <td>
+          
+            <p>Indicator calculated using sectoral statistics. Frequency: quarterly, annual.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-08-01-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+
                 <table class="table">
   
   
@@ -974,98 +1251,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -1152,12 +1345,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

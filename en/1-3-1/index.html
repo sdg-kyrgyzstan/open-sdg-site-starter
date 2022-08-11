@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -162,7 +162,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
     
   </div>
 </div>
@@ -891,16 +891,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >National Metadata</button>
         </li>
     
         
@@ -912,16 +912,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Global Metadata</button>
         </li>
     
         
@@ -933,16 +933,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Sources</button>
         </li>
     
     
@@ -960,9 +960,293 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>This table provides metadata for the actual indicator available from Kyrgyzstan statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Kyrgyz statistics, this table should be consulted for information on national methodology and other Kyrgyz-specific metadata information.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definitions </th>
+        <td>
+          
+            <p>The indicator reflects the proportion of persons effectively covered by a social protection system, including social protection floors. The number of social benefits recipients is the number of persons at the end (beginning) of the reporting year that have been assigned monthly amount under law of the Kyrgyz Republic on «State benefits in the Kyrgyz Republic». Effective coverage of social protection is measured by the number of personal accounts of recipients registered with the social protection agencies.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Concepts </th>
+        <td>
+          
+            <p>Beneficiary of pension payments (benefits) is individual receiving pension (benefit).
+Pension is an insurance payment made in cases of insured events to entitled persons in an amount and under conditions established by the State social protection legislation. There are several pension types: a) old-age pensions; b) disability benefits; b) loss of breadwinner pension.
+Number of pension recipients is the number of persons at the end (beginning) of the reporting year entitled to a monthly payment under pension legislation. The total number of pension recipients is separately calculated by the number of pensioners’ personal accounts registered with the Social Fund, other ministries and departments and the Pension Fund.
+State social benefits are financial support guaranteed by the Constitution of the Kyrgyz Republic to low-income families and disabled persons that have no pension entitlements. The following State benefits have been established: 1) monthly benefits to citizens (families) with three or more children between the ages of 3 and 16 “uy-bulogo komok” 2) monthly benefits to persons not entitled to pension “social benefits”.
+Social standards system includes social standards set in the following areas of social protection:
+Healthcare; social protection; education; employment; environmental security; legal order guarantees, citizen security and free legal assistance; culture; physical culture.
+Proportion of population covered by social protection floors/systems indicates how well population living conditions are protected.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Rationale and interpretation </th>
+        <td>
+          
+            <p>The social protection floor in the Kyrgyz Republic is a nationally defined set of basic social security guarantees which should ensure that those in need have access to basic healthcare and income, which together ensure guaranteed access to country-specific basic goods and services.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            <p>Indicator is defined as the ratio of persons receiving pensions and benefits to the total resident population and is calculated by: 
+y=n/N*100, where 
+n = total number of pensions and benefits recipients,
+N = total population.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            <p>There is a risk of double counting of beneficiaries of social protection systems and even of persons covered by them due to «supplementary» pension schemes. Even when main sources of double counting are excluded, double counting may occur if, for example, recipients move between different pension schemes over their lifetime and benefit from several schemes.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
+          
+            <p>National Statistical Committee controls over the completeness and validity of administrative data to ensure quality.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data availability and gaps </th>
+        <td>
+          
+            <p>Data available since 2007 onwards.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>Republic, by region</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability with international data/standards </th>
+        <td>
+          
+            <p>Национальная платформа отчетности ЦУР КР: https://sustainabledevelopment-kyrgyzstan.github.io
+Закон Кыргызской Республики «О гарантированных государственных минимальных социальных стандартах»: http://cbd.minjust.gov.kg/act/view/ru-ru/202576?cl=ru-ru
+URL: www.ilo.org/ilostat
+Ссылки: Статистика МОТ: www.ilo.org/ilostat
+Статистика и показатели социальной защиты МОТ: http://www.socialsecurityextension.org/gimi/gess/ShowTheme.action?th.themeId=10
+Рекомендация МОТ по социальной защите (№ 202), 2012 год:
+http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,
+P12100_LANG_CODE:3065524,en</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">References and documentation </th>
+        <td>
+          
+            <p>KR National SDG Reporting Platform: https://sustainabledevelopment-kyrgyzstan.github.io
+The Law of the Kyrgyz Republic on «Guaranteed State Minimum Social Standards»: http://cbd.minjust.gov.kg/act/view/ru-ru/202576?cl=ru-ru
+URL: www.ilo.org/ilostat
+Links: ILO statistics: www.ilo.org/ilostat
+ILO social protection statistics and indicators: http://www.socialsecurityextension.org/gimi/gess/ShowTheme.action?th.themeId=10
+ILO Social Protection Floors Recommendation (n°202), 2012:
+http://www.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_INSTRUMENT_ID,
+P12100_LANG_CODE:3065524,en</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
+          
+            <p>Data for indicator computation are obtained from the annual State statistical records: form 94 of the Social Protection System «Report on the number of old-age pensioners and monthly pensions they are entitled to», form 94 of the State Social Protection System (military service) «Report on the number of old-age pensioners registered with the security forces and their monthly pensions», form 2-State Benefits «Consolidated report on payment and amount of monthly and social benefits», Annex 1 to form 2- State Benefits «Consolidated report on recipients of monthly allowances and monthly benefits» and Annex 2 to form 2-State Benefits «Consolidated report on recipients of social and monthly benefits».</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data collection methods </th>
+        <td>
+          
+            <p>Observation method - Total observation technique: State statistical reporting.
+The focus of statistical observation is the number and composition of pensioners and persons receiving various types of benefits, as well as total payment of pensions and benefits (by category) and the average pension and benefit amounts.
+Observation units are statistical units implementing pensions and compulsory social security.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-03-01a.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+
                 <table class="table">
   
   
@@ -1010,98 +1294,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -1188,12 +1388,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

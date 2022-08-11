@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -162,7 +162,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
     
   </div>
 </div>
@@ -1059,16 +1059,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >National Metadata</button>
         </li>
     
         
@@ -1080,16 +1080,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Global Metadata</button>
         </li>
     
         
@@ -1101,16 +1101,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Sources</button>
         </li>
     
     
@@ -1128,9 +1128,302 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>This table provides metadata for the actual indicator available from Kyrgyzstan statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from Kyrgyz statistics, this table should be consulted for information on national methodology and other Kyrgyz-specific metadata information.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Unit of measurement </th>
+        <td>
+          
+            <p>Число</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Definitions </th>
+        <td>
+          
+            <p>The indicator reflects deaths, missing persons and directly affected persons attributed to disasters</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Concepts </th>
+        <td>
+          
+            <p>Death: The number of people who died during the disaster, or directly after, as a direct result of the hazardous event.
+Missing: The number of people whose whereabouts is unknown since the hazardous event. It includes people who are presumed dead although there is no physical evidence. The data on number of deaths and number of missing are mutually exclusive.
+Affected: People who are affected, either directly or indirectly, by a hazardous event.
+Directly affected: People who have suffered injury, illness or other health effects; who were evacuated, displaced, relocated or have suffered direct damage to their livelihoods, economic, physical, social, cultural and environmental assets.
+Indirectly affected: People who have suffered consequences, other than or in addition to direct effects, over time due to disruption or changes in economy, critical infrastructures, basic services, commerce, work or social, health and psychological consequences.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Rationale and interpretation </th>
+        <td>
+          
+            <p>The disaster loss data on mortality is significantly influenced by large-scale catastrophic events, which represents important outliers in terms of mortality, as they normally imply considerable numbers of people killed.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
+          
+            <p>Показатель А-1 – составной показатель простого суммирования числа погибших и пропавших без вести, разделенных на данные по населению.
+А-1 - число погибших и пропавших без вести в результате бедствий на 100 000 человек (составной показатель)
+А-2 - число погибших в результате бедствий на 100 000 человек
+А-3 - число пропавших без вести в результате бедствий на 100 000 человек 
+А1 = (А2а+А3а) <em>100,000/население
+А2 =   А2а *100,000/население 
+А3 =   А3а</em>100,000/население
+А𝟏 = А2 + А3</p>
+
+<p>Показатель В-1 - составной показатель простого суммирования соответствующих показателей по ущербу от бедствий, разделенных на сумму показателей данных населения:
+В-1 - число непосредственно пострадавших в результате бедствий на 100 000 человек (составной показатель).
+В-2 -число получивших увечья или пострадавших от болезней в результате бедствий
+В-3 - число людей, жилища которых были повреждены в результате бедствий
+В-4 - число людей, жилища которых были уничтожены в результате бедствий
+В -5 - число людей, средства к существованию которых пострадали или были уничтожены в результате бедствий
+В1 = сумма (В2…В5)*100,000/население</p>
+
+<p>Последнюю версия этой методологии можно получить по адресу:
+http://www.preventionweb.net/documents/oiewg/Technical%20Collection%20of%20Concept%20Notes%20on%20Indicators.pdf</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comments and limitations </th>
+        <td>
+          
+            <p>В этом показателе, учитывая трудности, связанные с оценкой всего диапазона всех пострадавших (прямо и косвенно), МСУОБ ООН предлагает использовать показатель, который будет оценивать “непосредственно пострадавших” в качестве косвенного показателя для числа пострадавших. Этот показатель, пока что не идеальный, исходит из широкодоступных данных и может быть последовательно использован в разных странах и на протяжении времени для оценки достижения Цели B Сендайской рамочной программы.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
+          
+            <p>Страны представляют отчетные данные в систему онлайн мониторинга Сендайской рамочной программы. Заполнение данных проходит 3 уровня (автор, валидатор, национальный координатор), все данные отображаются в онлайн режиме на сайте мониторинга Сендая.
+МЧС КР, как государственный орган представляет в Нацстатком КР государственную статистическую отчетность по Форме №1-ЧС</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data availability and gaps </th>
+        <td>
+          
+            <p>В онлайн режиме на сайте мониторинга Сендая. https://sendaicommitments.unisdr.org 
+Отчетность по показателю представляется МЧС КР в Нацстатком КР государственную статистическую отчетность по Форме №1-ЧС, а также по Матрице инвентаризации и адаптации задач и показателей Целей устойчивого развития</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Disaggregation </th>
+        <td>
+          
+            <p>Kyrgyz Republic, by oblasts, by sex</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Comparability with international data/standards </th>
+        <td>
+          
+            <p>Концепция комплексной защиты населения и территории Кыргызской Республики от чрезвычайных ситуаций на 2018-2030 годы, утверждена постановлением Правительства Кыргызской Республики от 29.01.2018 года №58. Концепция включает в себя все 4 приоритета Сендайской рамочной программы СРБ. Имеется связь Целей ЦУР с Сендайской рамочной программой СРБ по целям 1.5, 11.5 и 13.1.
+Данные сопоставимы и представляются данные в систему онлайн мониторинга Сендайской рамочной программы.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">References and documentation </th>
+        <td>
+          
+            <p>The Kyrgyz Republic SDG National Reporting Platform: https://sustainabledevelopment-kyrgyzstan.github.io</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
+          
+            <p>МЧС ежегодно предоставляет информацию в сводном виде по форме статистической отчетности №1-ЧС</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Data collection methods </th>
+        <td>
+          
+            <p>Данные по погибшим, пропавшим без вести и пострадавшим заполняются в государственной статистической отчетности Форме №1-ЧС из Типового акта Комиссии Гражданской защиты. 
+  Типовой акт Комиссии ГЗ составляется и заполняется после каждого случая ЧС, районные и городские отделы МЧС на основе Типового акта Комиссии ГЗ параллельно заполняют Форму №1-ЧС. 
+  Далее, обобщают Форму №1-ЧС за месяц по нарастающей и направляют заполненные Формы №1-ЧС в Управления МЧС областей, гг. Бишкек и Ош для обобщения за область (город). В случае отсутствия факта возникновения ЧС в текущем месяце Форма №1-ЧС формируется в месяц возникновения ЧС.
+  Управления МЧС областей, гг. Бишкек и Ош представляют обобщенные Формы №1-ЧС в Центр управления кризисными ситуациями при МЧС КР (далее ЦУКС) – 1 раз в полугодие – 30 июля и 30 января.
+  ЦУКС при МЧС КР направляет заполненную Форму №1-ЧС в сводном виде (область, город, район):</p>
+<ul>
+  <li>один раз в год в Нацстатком КР;</li>
+  <li>в Секретариат Национальной платформы по СРБ до 1 октября и до 1 марта следующего за отчетный период.
+  Секретариат Национальной платформы по СРБ Кыргызской Республики вносит данные из Формы №1-ЧС, представленные ЦУКС при МЧС КР, с добавлением дополнительных данных из официального сайта Нацстаткома КР в онлайн-отчетность мониторинга реализации Сендайской программы до 31 октября и 31 марта, следующего за отчетный период.</li>
+</ul>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Link to UN metadata </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-13-01-01.pdf" target="_blank">
+                United Nations Sustainable Development Goals Metadata <span class="visuallyhidden">opens in a new window</span>
+              </a>
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href="https://unstats.un.org/sdgs/metadata/">Complete global metadata</a> is provided by the UN Statistics Division.</p>
+
                 <table class="table">
   
   
@@ -1178,98 +1471,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -1356,12 +1565,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

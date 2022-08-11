@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -695,16 +695,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >Национальные метаданные</button>
         </li>
     
         
@@ -716,16 +716,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Глобальные метаданные</button>
         </li>
     
         
@@ -737,16 +737,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Источники</button>
         </li>
     
     
@@ -764,9 +764,280 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Географический охват </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Единица измерения </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Определения </th>
+        <td>
+          
+            <p>Показатели финансового посредничеств - это показатели для оценки размеров сектора относительно экономики в целом:                                                          1. Отношение активов банковской системы к ВВП;</p>
+<ol>
+  <li>Отношение депозитной базы банковской системы к ВВП;</li>
+  <li>Отношение кредитного портфеля банковской системы к ВВП</li>
+</ol>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Основные понятия </th>
+        <td>
+          
+            <p>Активы банковской системы                                                                            Депозитная база банковской системы
+Кредитного портфеля банковской системы                                                          ВВП</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Обоснование и толкование </th>
+        <td>
+          
+            <p>Обеспечить увеличение показателей, отражающих доступность банковских услуг, увеличение уровня финансового посредничества банковской системы.Согласно Основных направлений развития банковского сектора на на 2018-2021 гг. Национальным банком в среднесрочной перспективе будет продолжена реализация мероприятий, направленных на устойчивое развитие и повышение роли банковского, небанковского секторов в экономике Кыргызской Республики, ориентированных на поддержание эффективности, безопасности и надежности их деятельности, создание условий для улучшения региональной и ценовой доступности банковских, платежных и микрофинансовых услуг, снижение средневзвешенных процентных ставок по кредитам, а также дальнейшее расширение предоставления услуг по исламским принципам финансирования.                                                              В среднесрочной перспективе Национальным банком, исходя из показателей предыдущих периодов, планируется увеличение показателей, отражающих доступность банковских услуг, увеличение уровня финансового посредничества банковской системы.
+Национальный банк оказывает косвенное влияние на рост уровня финансового посредничества через совершенствование нормативно правовой базы и создания равных условий для их участников, дальнейший рост уровня финансового посредничества напрямую зависит от намерений акционеров коммерческих банков и от выбранной ими политики по увеличению капитальной базы, и мероприятий по дальнейшему наращиванию активов.       Увеличение уровня финансового посредничества банковской системы планируется обеспечить, в том числе, посредством внедрения инновационных технологий в банковском деле, развития рынка кредитования, внедрения элементов дистанционного обслуживания, дальнейшего проведения мероприятий по реализации механизмов, способствующих осуществлению коммерческими банками операций с обезличенными металлическими счетами. Кроме того, проведением мероприятий по совершенствованию нормативно правовой базы, регулирующей деятельность коммерческих банков и участников финансовой системы.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Метод расчета </th>
+        <td>
+          
+            <p>При расчете используются опубликованные данные на официальных интернет-сайтах Национального статистического комитета Кыргызской Республики и Национального банка Кыргызской Республики. Формула для получения показателей:                                                                                            Активы/ВВП = Совокупные активы банковской системы / годовой ВВП; 
+Депозиты/ВВП = Общая депозитная база без банков / годовой ВВП;
+Кредиты/ВВП = Кредитный портфель без финансово-кредитных организаций и банков / годовой ВВП,                                                                                      где Годовой ВВП - сумма значений Валового внутреннего продукта последние 12 месяцев. 
+Данные используются на годовой основе.
+Данные могут быть откорректированы при изменении исходной информации</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Комментарий и ограничения </th>
+        <td>
+          
+            <p>Данные по активам к ВВП предоставляются НБКР с 2008 года; по депозитной базе к ВВП и кредитному портфелю к ВВП - с 2007 года.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Гарантия качества </th>
+        <td>
+          
+            <p>Информация предоставляется коммерческими банками в соответствии с Положением о Периодическом регулятивном банковском отчете, утвержденном постановлением Правления Национального банка Кыргызской Республики от 25 августа 2005 года N 26/5.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Доступность данных и пробелы </th>
+        <td>
+          
+            <p>Данные по совокупным активам банковской системы, общей депозитной базе и кредитному портфелю коммерческих банков публикуются на ежемесячной основе на официальном интернет-сайте НБКР в разделе “Статистика” и в соответствующих таблицах II.2. “Сводный регулятивный отчет коммерческих банков КР”, IV.2.12 “Объемы и процентные ставки по депозитам в коммерческих банках в национальной и иностранной валютах (на конец периода)”, IV.2.21 “Объемы и процентные ставки кредитов коммерческих банков в национальной и иностранной валютах (задолженность на конец периода)” Бюллетеня НБКР. Данные по ВВП публикуются на ежемесячной основе на официальном интернет-сайте НСК КР в публикации “Социально-экономическое положение Кыргызской Республики”.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Разбивка </th>
+        <td>
+          
+            <p>Данные предоставляются на уровне страны, по годам.                                        Несуществующие данные указываются как “-“.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Сопоставимость с международными данными/стандартами </th>
+        <td>
+          
+            <p>Национальный банк Кыргызской Республики представляет ежегодно информацию по совокупным активам банковской системы, депозитной базе и кредитному портфелю коммерческих банков в МВФ путем заполнения Вопросника о доступности финансовых услуг (FAS).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Ссылки и документация </th>
+        <td>
+          
+            <p>“По данным ссылкам указаны данные по совокупным активам банковской системы:                                                                                                                 1. https://www.nbkr.kg/index1.jsp?item=1484&amp;lang=RUS</p>
+<ol>
+  <li>https://www.nbkr.kg/index1.jsp?item=137&amp;lang=RUS                                           По данным ссылкам указаны данные по депозитной базе банковской системы:         1. https://www.nbkr.kg/index1.jsp?item=124&amp;lang=RUS</li>
+  <li>https://www.nbkr.kg/index1.jsp?item=137&amp;lang=RUS                                          По данным ссылкам указаны данные по кредитному портфелю коммерческих банков:                                                                                                                    1. https://www.nbkr.kg/index1.jsp?item=125&amp;lang=RUS</li>
+  <li>https://www.nbkr.kg/index1.jsp?item=137&amp;lang=RUS                                                   По данной ссылке указан источник данных по ВВП: http://stat.kg/ru/publications/doklad-socialno-ekonomicheskoe-polozhenie-kyrgyzskoj-respubliki                                                                                                       Национальная платформа отчетности ЦУР: https://sustainabledevelopment-kyrgyzstan.github.io</li>
+</ol>
+
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Источники данных </th>
+        <td>
+          
+            <p>Национальный банк Кыргызской Республике на основе отчетности коммерческих банков в рамках Периодического регулятивного банковского отчета; Информация Национального статистического комитета Кыргызской Республики</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Методы сбора данных </th>
+        <td>
+          
+            <p>Коммерческие банки Кыргызской Республики предоставляют в Национальный банк Кыргызской Республики в рамках Периодического регулятивного банковского отчета данные по совокупным активам на ежедневной основе, данные по депозитной базе и кредитному портфелю - на ежемесячной основе.          Расчет ВВП осуществляется Национальным статистическим комитетом КР.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Ссылка на метаданные ООН </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
+
                 <table class="table">
   
   
@@ -814,98 +1085,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -992,12 +1179,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

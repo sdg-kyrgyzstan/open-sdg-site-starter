@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105951">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811111656">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105951">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811111656">
         
 
         <!--[if IE]>
@@ -695,16 +695,16 @@ data-event-label="Change to Table tab"
                 type="button"
                 class="nav-link active"
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-national"
+                data-bs-target="#national"
+                aria-controls="national"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.national_metadata tab"
 
-            ></button>
+            >Национальные метаданные</button>
         </li>
     
         
@@ -716,16 +716,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-global"
+                data-bs-target="#global"
+                aria-controls="global"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.global_metadata tab"
 
-            ></button>
+            >Глобальные метаданные</button>
         </li>
     
         
@@ -737,16 +737,16 @@ data-event-label="Change to  tab"
                 type="button"
                 class="nav-link "
                 data-bs-toggle="tab"
-                id="tab-"
-                data-bs-target="#"
-                aria-controls=""
+                id="tab-sources"
+                data-bs-target="#sources"
+                aria-controls="sources"
                 role="tab"
                 data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to  tab"
+data-event-label="Change to indicator.sources tab"
 
-            ></button>
+            >Источники</button>
         </li>
     
     
@@ -764,9 +764,272 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane active" id="">
+        <div role="tabpanel" class="tab-pane active" id="national">
             <article>
-                
+                <p>В этой таблице представлены метаданные для фактического показателя, доступного из статистики ближайшей к соответствующему глобальному индикатору ЦУР. Обратите внимание, что даже если глобальный индикатор ЦУР полностью доступен из статистики, по этой таблице следует проконсультироваться для получения информации о национальной методологии и других специфичных метаданных.</p>
+
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      <tr>
+        <th scope="row">Географический охват </th>
+        <td>
+          
+            <p>Кыргызская Республика</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Единица измерения </th>
+        <td>
+          
+            <p>Процент</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Определения </th>
+        <td>
+          
+            <p>Определяет перечень видов, занесенных в Красную книгу КР, ведение которой является одной из форм сохранения биологического разнообразия, содержащей информацию о наиболее уязвимых видах животных и растений и практические рекомендации по стабилизации или восстановлению их численности.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Основные понятия </th>
+        <td>
+          
+            <p>Редкими, исчезающими или находящимися под угрозой исчезновения видами/подвидами животных, растений и грибов являются те из них, которым угрожает исчезновение, встречаемое количество особей которых недостаточно для восстановления и самосохранения популяции в естественных условиях.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Обоснование и толкование </th>
+        <td>
+          
+            <p>Основанием составления (наличия) перечней видов/подвидов животных, растений и грибов является установленная необходимость принятия срочных мер по их охране и воспроизводству. 
+Показатель позволяет оценить состояние биоразнообразия с точки зрения количества видов, находящихся под угрозой исчезновения, и относительной эффективности ответных мер, принимаемых на национальном уровне, т.е. действий, принимаемых с целью сохранения национального и глобального биоразнообразия. Биологическое разнообразие является условием устойчивого функционирования экосистем.
+Показатель характеризует состояние популяций представителей фауны и флоры, относящихся к видовым группам, имеющим важнейшее ресурсное значение и играющим важную роль с точки зрения сохранения биоразнообразия. Он также помогает отразить сбалансированность экономических интересов с интересами сохранения биоразнообразия.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Метод расчета </th>
+        <td>
+          
+            <p>Доля видов, аходящихся под угрозой исчезновения, общем количестве краснокнижных видов
+Метод исчисления данной формы представления показателя:
+Доля видов (%) = Общее количество видов, находящихся под угрозой исчезновения / Общее количество краснокнижныхвидов * 100</p>
+
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Комментарий и ограничения </th>
+        <td>
+          
+            <p>Наличие финансовых ограничений и недостаток специалистов, приводящее к вероятному занесению в Красную книгу КР видов/подвидов при недостаточной или недостоверной информации об их состоянии, а также текущее изменение их состояния, требует периодического пересмотра состояния видов/подвидов животных, растений и грибов, для выявления нуждающихся в особых мерах охраны.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Гарантия качества </th>
+        <td>
+          
+            <p>Принятие решений о видах/подвидах, нуждающихся в особых мерах охраны, и составление их списков для занесения в Красную книгу КР должно проводиться на основе полноценной оценки их состояния и динамики изменений.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Доступность данных и пробелы </th>
+        <td>
+          
+            <p>Доступность данных для заинтересованных лиц обеспечивается принятым постановления Правительства КР от 28 апреля 2005 года № 170 «Об утверждении списков редких и находящихся под угрозой исчезновения видов животных и растений для занесения в Красную книгу Кыргызской Республики (в редакции постановления Правительства КР от 25 июля 2009 года № 471), печатным изданием Красной книги КР.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Разбивка </th>
+        <td>
+          
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Сопоставимость с международными данными/стандартами </th>
+        <td>
+          
+            <p>Является национальным индикатором, соответствующему глобальному индикатору 15.5.1. Индекс Красного списка.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Ссылки и документация </th>
+        <td>
+          
+            <p>Индикатор сформирован согласно Руководству ЕЭК ООН «Экологические показатели и основанные на них оценочные доклады», и методологии показателей ЦУР, исходя из имеющихся данных и проведенных консультациях.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Источники данных </th>
+        <td>
+          
+            <p>Данные формируются исходя из списков видов/подвидов животных, растений и грибов, подлежащих внесению в Красную книгу КР, утверждаемых постановлением Правительства КР.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Методы сбора данных </th>
+        <td>
+          
+            <p>Показатель формируется на основании списка видов Красной книги КР, утвержденного постановлением Правительства КР от 28 апреля 2005 года № 170 «Об утверждении списков редких и находящихся под угрозой исчезновения видов животных и растений для занесения в Красную книгу Кыргызской Республики» (вредакции ПП КР от 25 июля 2009 года № 471).
+Во всех разделах Красной книги Кыргызской Республики (2007 год) использована (с необходимыми модификациями) система категорий МСОП 2004 года.
+С 1963 года МСОП ведет международный список видов животных и растений, находящихся под угрозой (Красная книга).
+Также НАН КР проводится учет по отдельным видам.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      <tr>
+        <th scope="row">Ссылка на метаданные ООН </th>
+        <td>
+          
+            
+            
+            
+            
+
+            
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+            </article>
+        </div>
+        
+        
+        
+        
+        
+        <div role="tabpanel" class="tab-pane " id="global">
+            <article>
+                <p>В этой таблице представлена информация для метаданных показателей ЦУР, определенных Статистической комиссией ООН. Полные глобальные метаданные представлены Статистическим отделом ООН.</p>
+
                 <table class="table">
   
   
@@ -814,98 +1077,14 @@ data-event-label="Change to  tab"
         
         
         
-        <div role="tabpanel" class="tab-pane " id="">
+        <div role="tabpanel" class="tab-pane " id="sources">
             <article>
                 
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+                <!-- Count the non-empty sources (up to 5) -->
 
-            </article>
-        </div>
-        
-        
-        
-        
-        
-        <div role="tabpanel" class="tab-pane " id="">
-            <article>
-                
-                <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</table>
+
+
+
 
             </article>
         </div>
@@ -992,12 +1171,12 @@ data-event-label="Change to  tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Поиск';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105951'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811111656'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105951"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811111656"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
