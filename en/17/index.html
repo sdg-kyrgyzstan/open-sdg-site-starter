@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -118,26 +118,31 @@ var translations = {
         <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        <!-- Favicons ================================================== -->
-        <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
-        http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
-        -->
+        
+
+
+
+
+<link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
+<link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png">
+
 
         
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
+        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811075453">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811082533">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.control.min.css"  crossorigin=""/>
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811075453"><!-- ShareThis BEGIN --><!-- ShareThis END -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811082533">
+        
 
         
 
@@ -151,11 +156,13 @@ layout-goal-by-target
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
-  <div class="container">
+  
+<div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
     This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
+    
   </div>
 </div>
 
@@ -183,7 +190,7 @@ layout-goal-by-target
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
+    <ul class="dropdown-menu"><li class="language-option-ru">
             <a href="/open-sdg-site-starter/17/">
               Pусский
             </a>
@@ -235,7 +242,7 @@ layout-goal-by-target
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
       <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li>
+    <ul class="dropdown-menu"><li class="language-option-ru">
             <a href="/open-sdg-site-starter/17/">
               Pусский
             </a>
@@ -311,14 +318,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.1.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-1-1">
@@ -326,6 +336,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -334,14 +349,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.1.2
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-1-2">
@@ -349,6 +367,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -369,14 +392,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.2.1
           
 
 
+
 <span class="status notapplicable">
-    Not applicable
+    <span class="status-inner">Not applicable</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-2-1">
@@ -384,6 +410,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -404,14 +435,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.3.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-3-1">
@@ -419,6 +453,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -427,29 +466,39 @@ layout-goal-by-target
       
 
       <div class="col-md-12 indicator-national goal-indicator">
+        
         <span class="indicator-card-number">
           17.3.1.1a
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-3-1-1a">
           Foreign direct investment inflow from abroad by type of economic activity
         </a>
         
-    <span class="sr-only">Tags</span>
-    <span class="tags">
+
+
+
+
+    <ul class="tags" aria-label="Tags">
     
+    
+        <li>
         
         <span class="tag tag-national">National</span>
+        </li>
     
-    </span>
+    </ul>
 
 
+        
       </div>
     
 
@@ -458,29 +507,39 @@ layout-goal-by-target
       
 
       <div class="col-md-12 indicator-national goal-indicator">
+        
         <span class="indicator-card-number">
           17.3.1.1b
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-3-1-1b">
           Foreign direct investment by country of origin
         </a>
         
-    <span class="sr-only">Tags</span>
-    <span class="tags">
+
+
+
+
+    <ul class="tags" aria-label="Tags">
     
+    
+        <li>
         
         <span class="tag tag-national">National</span>
+        </li>
     
-    </span>
+    </ul>
 
 
+        
       </div>
     
 
@@ -489,14 +548,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.3.2
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-3-2">
@@ -504,6 +566,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -524,14 +591,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.4.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-4-1">
@@ -539,6 +609,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -559,14 +634,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.5.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-5-1">
@@ -574,6 +652,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -594,14 +677,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.6.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-6-1">
@@ -609,6 +695,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -617,14 +708,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.6.2
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-6-2">
@@ -632,6 +726,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -652,14 +751,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.7.1
           
 
 
+
 <span class="status notapplicable">
-    Not applicable
+    <span class="status-inner">Not applicable</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-7-1">
@@ -667,6 +769,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -687,14 +794,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.8.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-8-1">
@@ -702,6 +812,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -722,14 +837,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.9.1
           
 
 
+
 <span class="status notapplicable">
-    Not applicable
+    <span class="status-inner">Not applicable</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-9-1">
@@ -737,6 +855,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -757,14 +880,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.10.1
           
 
 
+
 <span class="status notapplicable">
-    Not applicable
+    <span class="status-inner">Not applicable</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-10-1">
@@ -772,6 +898,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -792,14 +923,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.11.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-11-1">
@@ -807,6 +941,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -815,29 +954,39 @@ layout-goal-by-target
       
 
       <div class="col-md-12 indicator-national goal-indicator">
+        
         <span class="indicator-card-number">
           17.11.1.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-11-1-1">
           ICT goods import and export as a percentage of total goods import/export
         </a>
         
-    <span class="sr-only">Tags</span>
-    <span class="tags">
+
+
+
+
+    <ul class="tags" aria-label="Tags">
     
+    
+        <li>
         
         <span class="tag tag-national">National</span>
+        </li>
     
-    </span>
+    </ul>
 
 
+        
       </div>
     
     </div>
@@ -858,14 +1007,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.12.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-12-1">
@@ -873,6 +1025,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -893,14 +1050,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.13.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-13-1">
@@ -908,6 +1068,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -916,29 +1081,39 @@ layout-goal-by-target
       
 
       <div class="col-md-12 indicator-national goal-indicator">
+        
         <span class="indicator-card-number">
           17.13.1.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-13-1-1">
           Macroeconomic Dashboard
         </a>
         
-    <span class="sr-only">Tags</span>
-    <span class="tags">
+
+
+
+
+    <ul class="tags" aria-label="Tags">
     
+    
+        <li>
         
         <span class="tag tag-national">National</span>
+        </li>
     
-    </span>
+    </ul>
 
 
+        
       </div>
     
     </div>
@@ -959,14 +1134,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.14.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-14-1">
@@ -974,6 +1152,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -994,14 +1177,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.15.1
           
 
 
+
 <span class="status notapplicable">
-    Not applicable
+    <span class="status-inner">Not applicable</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-15-1">
@@ -1009,6 +1195,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -1029,14 +1220,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.16.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-16-1">
@@ -1044,6 +1238,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -1064,14 +1263,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.17.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-17-1">
@@ -1079,6 +1281,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -1099,14 +1306,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.18.1
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-18-1">
@@ -1114,6 +1324,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -1122,14 +1337,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.18.2
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-18-2">
@@ -1137,6 +1355,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -1145,14 +1368,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.18.3
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-18-3">
@@ -1160,6 +1386,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
@@ -1180,14 +1411,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.19.1
           
 
 
+
 <span class="status notstarted">
-    Exploring data sources
+    <span class="status-inner">Exploring data sources</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-19-1">
@@ -1195,6 +1429,11 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
 
@@ -1203,14 +1442,17 @@ layout-goal-by-target
       
 
       <div class="col-md-12  goal-indicator">
+        
         <span class="indicator-card-number">
           17.19.2
           
 
 
+
 <span class="status complete">
-    Reported
+    <span class="status-inner">Reported</span>
 </span>
+
 
         </span>
         <a href="/open-sdg-site-starter/en/17-19-2">
@@ -1218,11 +1460,17 @@ layout-goal-by-target
         </a>
         
 
+
+
+
+
+        
       </div>
     
     </div>
   
 </div>
+
 
 <footer role="contentinfo">
   <div class="container">
@@ -1247,102 +1495,49 @@ layout-goal-by-target
         </div>
       </div>
     </div>
+    
   </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
+
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
+
+
+
+
+
+
+
 <script>translations['general'] = translations['general'] || {};
     translations['general']['hide'] = 'hide';</script>
 
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811075453'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811082533'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811075453"></script><script>
-$(function() {
-    if($('#indicatorData').length) {
-      var domData = $('#indicatorData').data();
-
-      if (domData.showdata) {
-
-        $('.async-loading').each(function(i, obj) {
-            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
-        });
-
-        var remoteUrl = '/comb/' + domData.id + '.json';
-        if (opensdg.remoteDataBaseUrl !== '/') {
-          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
-        }
-
-        $.ajax({
-          url: remoteUrl,
-          success: function(res) {
-
-            $('.async-loading').remove();
-            $('.async-loaded').show();
-
-            var model = new indicatorModel({
-              data: res.data,
-              edgesData: res.edges,
-              showMap: domData.showmap,
-              country: domData.country,
-              indicatorId: domData.indicatorid,
-              shortIndicatorId: domData.id,
-              chartTitle: domData.charttitle,
-              chartTitles: domData.charttitles,
-              measurementUnit: domData.measurementunit,
-              showData: domData.showdata,
-              graphType: domData.graphtype,
-              startValues: domData.startvalues,
-              graphLimits: domData.graphlimits,
-              stackedDisaggregation: domData.stackeddisaggregation,
-              graphAnnotations: domData.graphannotations,
-              indicatorDownloads: domData.indicatordownloads,
-              dataSchema: domData.dataschema,
-              compositeBreakdownLabel: domData.compositebreakdownlabel,
-              precision: domData.precision,
-            }),
-            view  = new indicatorView(model, {
-              rootElement: '#indicatorData',
-              legendElement: '#plotLegend',
-              decimalSeparator: '',
-              maxChartHeight: 420,
-              tableColumnDefs: [
-                { maxCharCount: 25 }, // nowrap
-                { maxCharCount: 35, width: 200 },
-                { maxCharCount: Infinity, width: 250 }
-              ]
-            }),
-            controller = new indicatorController(model, view);
-            controller.initialise();
-          }
-        });
-      }
-    }
-
-    var switcher = new accessibilitySwitcher();
-
-
-});
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811082533"></script><script>
+    new indicatorInit();
+    new accessibilitySwitcher();
 </script>
-
-
 
 
 </body>
