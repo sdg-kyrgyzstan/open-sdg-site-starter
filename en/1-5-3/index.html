@@ -41,10 +41,6 @@ var opensdg = {
   language: 'en',
 };
 
-// For backwards compatibility, some of these might need to be global.
-// @TODO: Remove these eventually.
-var remoteDataBaseUrl = opensdg.remoteDataBaseUrl;
-
 </script>
 
         <script>
@@ -123,22 +119,18 @@ var translations = {
         <script src="/open-sdg-site-starter/assets/js/lib/classList.js"></script>
         <![endif]-->
 
-        
-
-
-
-
-<link rel="shortcut icon" type="image/ico" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico">
-<link rel="icon" type="image/png" href="/open-sdg-site-starter/assets/img/favicons/favicon.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/open-sdg-site-starter/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/open-sdg-site-starter/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/open-sdg-site-starter/assets/img/favicons/favicon-16x16.png">
+<link rel="icon" type="image/x-icon" href="/open-sdg-site-starter/assets/img/favicons/favicon.ico" />
 
 
         
-        
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
-        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105204">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220811105633">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -146,8 +138,12 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105204">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220811105633">
         
+
+        <!--[if IE]>
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/ie.css">
+        <![endif]-->
 
         
 
@@ -157,7 +153,7 @@ layout-indicator
 ">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
@@ -166,7 +162,7 @@ layout-indicator
   <div class="disclaimer-alert">
     <strong class="phase-tag">Alpha</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg_nsc@stat.kg">feedback</a>.
+    This is a development website. We welcome your <a href="mailto:%email_contacts.suggestions">feedback</a>.
     
   </div>
 </div>
@@ -191,12 +187,13 @@ layout-indicator
 
   <div class="language-toggle-container">
   
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-ru">
-            <a href="/open-sdg-site-starter/1-5-3/">
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      English
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/open-sdg-site-starter/1-5-3/">
               Pусский
             </a>
           </li></ul>
@@ -216,13 +213,17 @@ layout-indicator
         </li>
         <li><span data-target="search">Search</span></li>
       </ul>
-      <div id="search" class="menu-target">
-  <form action="/open-sdg-site-starter/en/search/">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
-  </form>
-</div>
+      <form class="align-self-lg-end" id="search" action="/open-sdg-site-starter/en/search/">
+    <div class="input-group">
+        <label class="visually-hidden" for="indicator_search">Search</label>
+        <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
+        <span class="input-group-append">
+            <button class="btn btn-outline-secondary ms-n5" aria-label="Search" id="search-btn" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+</form>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
           <a href="/open-sdg-site-starter/en/reporting-status">Reporting Status</a>
@@ -243,12 +244,13 @@ layout-indicator
 
   <div class="language-toggle-container">
   
-  <div class="btn-group language-toggle-dropdown ">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
-    <ul class="dropdown-menu"><li class="language-option-ru">
-            <a href="/open-sdg-site-starter/1-5-3/">
+  <div class="btn-group language-toggle-dropdown  dropdown">
+    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa fa-globe"></i>
+      English
+    </button>
+    <ul class="dropdown-menu"><li>
+            <a class="dropdown-item" href="/open-sdg-site-starter/1-5-3/">
               Pусский
             </a>
           </li></ul>
@@ -268,9 +270,6 @@ layout-indicator
     <div class="variable-selector
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %> disallowed <% }%>
       <% if (typeof childFields !== 'undefined' && childFields.indexOf(fieldItem.field) !== -1) { %> child <% }%>
-      <% // @deprecated start %>
-      <% if (typeof childFields === 'undefined' && allowedFields.indexOf(fieldItem.field) == -1) { %> child <% }%>
-      <% // @deprecated end %>
       "
       data-field="<%=fieldItem.field%>"
     >
@@ -337,48 +336,56 @@ layout-indicator
   
 </script>
 
-<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_excel":"Download Source Excel","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
+<script>translations['indicator'] = {"annotation_2030_target":"2030 indicator target","annotation_series_break":"Series break","announce_data_added":"Chart and table updated to include data.","announce_data_not_available":"Chart and table shows no data.","announce_data_removed":"Chart and table updated to exclude data.","apply":"Apply","cancel":"Cancel","change_breakdowns":"Change breakdowns","chart":"Chart","chart_annotation":"Chart annotation","clear_all":"Clear all","clear_selections":"Clear selections","data_keyboard_navigation":"Press enter to browse data points with left and right arrow keys.","data_not_available":"This data is not available. Please choose alternative data to display.","data_tabular_alternative":"For tabular data alternative see Table tab.","dataset_size_warning":"There are too many datasets to show on the chart. Not all will be shown until you remove some selections.","download_chart":"Download Chart CSV","download_chart_image":"Download Chart Image","download_chart_image_title":"Download chart as image","download_csv":"Download CSV","download_csv_title":"Download as CSV","download_geojson":"Download GeoJSON","download_geojson_title":"Download as GeoJSON","download_headline":"Download Headline CSV","download_headline_title":"Download headline data as CSV","download_source":"Download Source CSV","download_source_excel":"Download Source Excel","download_source_for_disaggregations":"Download source CSV for disaggregations","download_source_sdmx":"Download Source SDMX","download_source_sdmx_title":"Download source data as SDMX","download_source_title":"Download source data as CSV","download_table":"Download Table CSV","edit":"Edit","edit_configuration":"Edit Configuration","edit_data":"Edit Data","edit_metadata":"Edit Metadata","footnote":"Footnote","geographical_area":"Geographical Area","global_metadata":"Global Metadata","global_metadata_blurb":"This table provides information on metadata for SDG indicators as defined by the UN Statistical Commission. <a href=\"https://unstats.un.org/sdgs/metadata/\">Complete global metadata</a> is provided by the UN Statistics Division.","headline_data":"Headline data","legend_help":"Click on the legend to remove individual lines from the chart.","loading":"Loading","loading_map":"Loading map","map":"Map","map_search":"Search","map_search_hide":"Hide search","map_search_show":"Show search","map_year_slider":"Year slider","national_metadata":"National Metadata","national_metadata_blurb":"This table provides metadata for the actual indicator available from %country.name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country.adjective statistics, this table should be consulted for information on national methodology and other %country.adjective-specific metadata information.","next":"Next indicator","no_data_hint":"No options available because of filters above","no_headline_data":"No headline data available","plot_legend_description":"Plot legend: list of lines included in chart","previous":"Previous indicator","select_all":"Select all","series":"Series","series_help":"Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.","source":"Source","sources":"Sources","status":"Indicator status","sub_categories":"Sub-categories","sub_categories_show":"Show sub-categories:","table":"Table","table_column_sort":"Click to sort by this column","tags":"Tags","unit":"Unit","unit_of_measurement":"Unit of Measurement","units_type":"Units type","variable_hint":"Available when '%field' is selected","view_indicator_list":"View this goal's indicator list"};</script>
 
-<script>translations['data'] = null;</script>
+<script>translations['data'] = {"Year":"Year"};</script>
 
 
 <div class="container">
   
-<ol class="breadcrumb">
-  
-  <li><a href="/open-sdg-site-starter/en/">Home</a></li>
-  <li><a href="/open-sdg-site-starter/en/1" title="End poverty in all its forms everywhere">Goal 1</a></li>
-  <li class="active">Indicator 1.5.3</li>
-  
-</ol>
+<nav>
+    <ol aria-label="breadcrumb" class="breadcrumb" style="--bs-breadcrumb-divider: '&rsaquo;';">
+        
+        <li class="breadcrumb-item">
+            <a href="/open-sdg-site-starter/en/">Home</a>
+        </li>
+        <li class="breadcrumb-item">
+            <a href="/open-sdg-site-starter/en/1" title="End poverty in all its forms everywhere">Goal 1</a>
+        </li>
+        <li class="breadcrumb-item active">Indicator 1.5.3</li>
+        
+    </ol>
+</nav>
 
 
   
 </div>
 <div class="heading goal-banner indicator goal-1">
-  <div class="container">
-    <div class="row">
-      
-      <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/open-sdg-site-starter/en/1" title="View this goal's indicator list">
-          <img src="https://sdg-kyrgyzstan.github.io/open-sdg-site-starter/assets/img/goals/en/1.png" alt="No poverty - Goal 1" id="goal-1" class="goal-icon-image goal-icon-image-"/>
-        </a>
-      </div>
-      <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
-      
-        <div>
-          <h1>
+    <div class="container">
+        <div class="row">
             
-            Indicator 1.5.3
+            <div class="col-4 col-md-3 col-lg-2 goal-icon goal-tiles">
+                <a href="/open-sdg-site-starter/en/1" title="View this goal's indicator list">
+                    <img src="https://sdg-kyrgyzstan.github.io/open-sdg-site-starter/assets/img/goals/en/1.png"
+                        alt="No poverty - Goal 1"
+                        id="goal-1"
+                        class="goal-icon-image goal-icon-image-" />
+                </a>
+            </div>
+            <div class="col-8 col-md-9 col-lg-10 indicator-details">
             
-            <span class="lead-copy">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</span>
-          </h1>
+                <div>
+                    <h1>
+                        
+                        Indicator 1.5.3
+                        
+                        <span class="lead-copy">Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</span>
+                    </h1>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </div>
-
 <div id="main-content" class="container goal-1" role="main">
   
 
@@ -431,129 +438,99 @@ approved by Decree of the Government of the Kyrgyz Republic dated January 29, 20
   
   <div id="indicator-main" class="indicator-main col-md-12">
   
-  <ul class="nav nav-tabs spacer medium" role="tablist">
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  <li role="presentation" class="nav-item active">
-    <a class="nav-link" data-toggle="tab" id="tab-indicator_information" href="#indicator_information" aria-controls="indicator_information" role="tab" data-on="click"
+  <div class="mt-4">
+<ul class="nav nav-tabs" role="tablist">
+    
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link active"
+                data-bs-toggle="tab"
+                id="tab-"
+                data-bs-target="#"
+                aria-controls=""
+                role="tab"
+                data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to custom.indicator_information tab"
->Indicator information</a>
-  </li>
+data-event-label="Change to  tab"
 
-  
-  
-  
-  
-  
-  
-  
-  
-  <li role="presentation" class="nav-item ">
-    <a class="nav-link" data-toggle="tab" id="tab-national" href="#national" aria-controls="national" role="tab" data-on="click"
+            ></button>
+        </li>
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link "
+                data-bs-toggle="tab"
+                id="tab-"
+                data-bs-target="#"
+                aria-controls=""
+                role="tab"
+                data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to indicator.national_metadata tab"
->National Metadata</a>
-  </li>
+data-event-label="Change to  tab"
 
-  
-  
-  
-  
-  
-  
-  
-  
-  <li role="presentation" class="nav-item ">
-    <a class="nav-link" data-toggle="tab" id="tab-data_reporter" href="#data_reporter" aria-controls="data_reporter" role="tab" data-on="click"
+            ></button>
+        </li>
+    
+        
+        
+        
+        
+        <li role="presentation" class="nav-item">
+            <button
+                type="button"
+                class="nav-link "
+                data-bs-toggle="tab"
+                id="tab-"
+                data-bs-target="#"
+                aria-controls=""
+                role="tab"
+                data-on="click"
 data-event-category="Tab change"
 data-event-action="Change metadata view"
-data-event-label="Change to custom.data_reporter tab"
->Data supplier</a>
-  </li>
+data-event-label="Change to  tab"
 
-
-  
-  <li role="presentation" class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#edit" aria-controls="edit" role="tab">Edit</a>
-  </li>
-  
+            ></button>
+        </li>
+    
+    
+    
+        <li role="presentation" class="nav-item">
+            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#edit" aria-controls="edit" role="tab">Edit</a>
+        </li>
+    
 </ul>
 
 <div class="tab-content">
-  
     
-    
-    
-    
-    
-    
-    
-    
-    
-    <div role="tabpanel" class="tab-pane active" id="indicator_information">
-      <article>
-        <p>This table provides information about the indicator</p>
-
-        <table class="table">
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row">Indicator name </th>
-        <td>
-          
-            <p>1.5.3: Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Target name </th>
-        <td>
-          
-            <p>1.5: By 2030, build the resilience of the poor and those in vulnerable situations and reduce their exposure and vulnerability to climate-related extreme events and other economic, social and environmental shocks and disasters</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Goal </th>
-        <td>
-          
-            <ol>
-  <li>End poverty in all its forms everywhere</li>
-</ol>
-
-          
-        </td>
-        </tr>
         
-      
+        
+        
+        <div role="tabpanel" class="tab-pane active" id="">
+            <article>
+                
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -586,261 +563,40 @@ data-event-label="Change to custom.data_reporter tab"
   
 </table>
 
-      </article>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div role="tabpanel" class="tab-pane " id="national">
-      <article>
-        <p>This table provides metadata for the actual indicator available from %country_name statistics closest to the corresponding global SDG indicator. Please note that even when the global SDG indicator is fully available from %country_adjective statistics, this table should be consulted for information on national methodology and other %country_adjective-specific metadata information.</p>
-
-        <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row">Geographical coverage </th>
-        <td>
-          
-            <p>Kyrgyz Republic</p>
-
-          
-        </td>
-        </tr>
+            </article>
+        </div>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Unit of measurement </th>
-        <td>
-          
-            
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Definitions </th>
-        <td>
-          
-            <p>An open-ended intergovernmental expert working group on indicators and terminology relating to disaster risk reduction established by the General Assembly (resolution 69/284) is developing a set of indicators to measure global progress in the implementation of the Sendai Framework. These indicators will eventually reflect the agreements on the Sendai Framework indicators.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Concepts </th>
-        <td>
-          
-            <p>Over the next 15 years DDR strategy aims to achieve a significant disaster risk reduction and disaster losses in terms of deaths, livelihoods and health losses, and adverse effects on economic, physical, social, cultural and environmental assets of people, enterprises, communities and countries.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Rationale and interpretation </th>
-        <td>
-          
-            <p>The indicator will build bridge between the SDGs and the Sendai Framework for DRR. Increasing number of national governments that adopt and implement national and local DRR strategies, which the Sendai Framework calls for, will contribute to sustainable development from economic, environmental and social perspectives. It is not recommended to simply count the number of countries; instead indicators to measure progress over time should be promoted. Further to the deliberations of the OEIWG as well as the IAEG, UNISDR has proposed computation methodologies that allow the monitoring of improvement in national and local DRR strategies over time. These methodologies range from a simple quantitative assessment of the number of these strategies to a qualitative measure of alignment with the Sendai Framework, as well as population coverage for local strategies.</p>
-
-          
-        </td>
-        </tr>
         
-      
+        <div role="tabpanel" class="tab-pane " id="">
+            <article>
+                
+                <table class="table">
   
-      
-      
-      <tr>
-        <th scope="row">Method of computation </th>
-        <td>
-          
-            <p>Technical%20Collection%20of%20Concept%20Notes%20on%20Indicators.pdf
-Note: Computation methodology for several indicators is very comprehensive, very long (about 180 pages) and probably out of the scope of this Metadata. UNISDR prefers to refer to the outcome of the Open Ended Intergovernmental Working Group, which provides a full detailed methodology for each indicator.
-The latest version of these methodologies can be obtained at:
-http://www.preventionweb.net/Documentation/oiewg/Technical%20Collection%20of%20Concept%20Notes%20on%20Indicators.pdf</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Comments and limitations </th>
-        <td>
-          
-            <p>The HFA Monitor started in 2007 and over time, the number of countries reporting to UNISDR increased from 60 in 2007 to 140 countries now undertaking voluntary self-assessment of progress in implementing the HFA. During the four reporting cycles to 2015 the HFA Monitor has generated the world’s largest repository of information on national DRR policy inter alia. Its successor, provisionally named the Sendai Monitor, is under development and will be informed by the recommendations of the OEIWG.</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Quality assurance </th>
-        <td>
-          
-            <p>Страны представляют отчетные данные в систему онлайн мониторинга Сендайской рамочной программы. Заполнение данных проходит 3 уровня (автор, валидатор, национальный координатор), все данные отображаются в онлайн режиме на сайте мониторинга Сендая.
-МЧС КР как государственный орган представляет в Нацстатком КР по Матрице инвентаризации и адаптации задач и показателей Целей устойчивого развития</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Data availability and gaps </th>
-        <td>
-          
-            <p>2013 and 2015 time series: Hyogo Framework (HFA) Monitor</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Disaggregation </th>
-        <td>
-          
-            <p>National level.</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Comparability with international data/standards </th>
-        <td>
-          
-            <p>Data for Kyrgyzstan are comparable with other countries as they are compiled in accordance with international methodology.</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">References and documentation </th>
-        <td>
-          
-            <p>URL: http://www.preventionweb.net/Documentation/oiewg/
-Technical%20Collection%20of%20Concept%20Notes%20on%20Indicators.pdf;
-Links: The Open-ended Intergovernmental Expert Working Group on Indicators and Terminology relating to Disaster Risk Reduction (OEIWG) was given the responsibility by the UNGA for the development of a set of indicators to measure global progress in the implementation of the Sendai Framework, against the seven global targets. The work of the OEIWG shall be completed by December 2016 and its report submitted to the General Assembly for consideration. The IAEG-SDGs and the UN Statistical Commission formally recognizes the role of the OEIWG, and has deferred the responsibility for the further refinement and development of the methodology for disaster-related SDGs indicators to this working group. http://www.preventionweb.net/drr-framework/open-ended-working-group/
-The latest version of Documentation are located at: http://www.preventionweb.net/drr-framework/open-ended-working-group/sessional-intersessionalDocumentation</p>
-
-<p>KR National SDG Reporting Platform: https://sustainabledevelopment-kyrgyzstan.github.io</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Data sources </th>
-        <td>
-          
-            <p>National Progress Report of the Sendai Monitor, reported to UNISDR.</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Data collection methods </th>
-        <td>
-          
-            <p>Official national partners submit National Progress Report of the Sendai Monitor.</p>
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      <tr>
-        <th scope="row">Link to UN metadata </th>
-        <td>
-          
-            
-            
-            
-            
-
-            
-              <a href="https://unstats.un.org/sdgs/metadata/files/Metadata-01-05-03.pdf" target="_blank">
-                United Nations Sustainable Development Goals Metadata (pdf 894kB) <span class="visuallyhidden">opens in a new window</span>
-              </a>
-            
-
-          
-        </td>
-        </tr>
-        
-      
   
-      
-      
-      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -857,115 +613,45 @@ The latest version of Documentation are located at: http://www.preventionweb.net
   
 </table>
 
-      </article>
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div role="tabpanel" class="tab-pane " id="data_reporter">
-      <article>
-        <p>This table provides information about the supplier of the data</p>
-
-        <table class="table">
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-      
-      
-      <tr>
-        <th scope="row">Organization </th>
-        <td>
-          
-            <p>Ministry of Emergency Situations of the Kyrgyz Republic</p>
-
-          
-        </td>
-        </tr>
+            </article>
+        </div>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Contact person(s)/focal point </th>
-        <td>
-          
-            <p>Kadyrova D.</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Contact person's email </th>
-        <td>
-          
-            <p>k-gulshat-b@mail.ru</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Contact person's phone </th>
-        <td>
-          
-            <p>(0312) 56-86-32</p>
-
-          
-        </td>
-        </tr>
         
-      
-  
-      
-      
-      <tr>
-        <th scope="row">Organization website </th>
-        <td>
-          
-            <p>http://ru.mes.kg/</p>
-
-          
-        </td>
-        </tr>
         
-      
+        <div role="tabpanel" class="tab-pane " id="">
+            <article>
+                
+                <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -977,13 +663,13 @@ The latest version of Documentation are located at: http://www.preventionweb.net
   
 </table>
 
-      </article>
-    </div>
+            </article>
+        </div>
+        
     
-  
-  
-  <div role="tabpanel" class="tab-pane" id="edit">
-    <div class="edit-container">
+    
+        <div role="tabpanel" class="tab-pane" id="edit">
+            <div class="edit-container">
   
   <a class="btn btn-primary" href="http://prose.io/#sustainabledevelopment-kyrgyzstan/open-sdg-data-starter/edit/develop/data/indicator_1-5-3.csv">Edit Data</a>
   
@@ -996,55 +682,53 @@ The latest version of Documentation are located at: http://www.preventionweb.net
 
 </div>
 
-  </div>
+        </div>
+    
+</div>
   
 </div>
-
-
   </div>
 </div>
 
+  <a href="#top">Back to top</a>
 </div>
-
 
 <footer role="contentinfo">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <div id="footerLinks">
-          <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
-            
-              <li>
-                
-                  <a href="mailto:sdg_nsc@stat.kg" target="_blank">Contact us</a>
-                
-                </li>
-              <li>
-                <a href="/open-sdg-site-starter/en/about/cookies-and-privacy">Cookies</a>
-                
-                </li>
-              
-            
-            </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="footerLinks">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                        </li>
+                        
+                        <li>
+                            
+                            <a href="mailto:sdg_nsc@stat.kg" target="_blank">Contact us</a>
+                            
+                        </li>
+                        <li>
+                            <a href="/open-sdg-site-starter/en/about/cookies-and-privacy">Cookies</a>
+                            
+                        </li>
+                        
+                        
+                        </ul>
+                </div>
+            </div>
         </div>
-      </div>
+        
     </div>
-    
-  </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
-
-<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js" integrity="sha256-Y26AMvaIfrZ1EQU49pf6H4QzVTrOI8m9wQYKkftBt4s=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
@@ -1064,12 +748,12 @@ The latest version of Documentation are located at: http://www.preventionweb.net
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105204'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220811105633'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105204"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220811105633"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
@@ -1077,4 +761,3 @@ The latest version of Documentation are located at: http://www.preventionweb.net
 
 </body>
 </html>
-
