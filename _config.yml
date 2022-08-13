@@ -171,3 +171,10 @@ map_layers:
     nameProperty: ADM0_NAME
     idProperty: ADM0_CODE
     staticBorders: true
+
+frontpage_goals_grid:
+  title: custom.frontpage_heading
+  description: custom.frontpage_instructions
+frontpage_introduction_banner:
+  title: frontpage.intro_title
+  description: frontpage.intro_body
