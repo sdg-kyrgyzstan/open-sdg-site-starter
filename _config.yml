@@ -115,13 +115,13 @@ languages:
   - en
   
 metadata_tabs:
-  indicator_information:
+  - scope: indicator_information
     title: custom.indicator_information
     blurb: custom.indicator_information_blurb
-  national:
+  - scope: national
     title: indicator.national_metadata
     blurb: indicator.national_metadata_blurb
-  data_reporter:
+  - scope: data_reporter
     title: custom.data_reporter
     blurb: custom.data_reporter_blurb
 
@@ -145,7 +145,7 @@ plugins:
   - jekyll-open-sdg-plugins
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.4.0
+remote_theme: open-sdg/open-sdg@2.0.0
 
 # Apply any custom Javascript.
 custom_js:
@@ -171,3 +171,10 @@ map_layers:
     nameProperty: ADM0_NAME
     idProperty: ADM0_CODE
     staticBorders: true
+
+frontpage_goals_grid:
+  title: custom.frontpage_heading
+  description: custom.frontpage_instructions
+frontpage_introduction_banner:
+  title: frontpage.intro_title
+  description: frontpage.intro_body
