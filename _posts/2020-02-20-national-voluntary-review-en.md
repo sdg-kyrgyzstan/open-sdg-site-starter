@@ -6,7 +6,7 @@ excerpt:
 language: en
 permalink: /en/national-voluntary-review/
 categories:
-  - custom.national
+- custom.national
 ---
 
 **The National Statistical Committee held a meeting of the Monitoring and Assessment working group on the preparation of the National Voluntary Review on progress towards the SDGs**
