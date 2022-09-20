@@ -130,7 +130,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220916045105">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20220920205926">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220916045105">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20220920205926">
         
 
         <!--[if IE]>
@@ -408,7 +408,7 @@ data-event-label="high"
   data-graphtype="line"
   data-graphtypes="null"
   data-geocoderegex=""
-  data-showmap=""
+  data-showmap="true"
   data-startvalues="null"
   data-graphlimits="null"
   data-stackeddisaggregation=""
@@ -416,7 +416,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="{&quot;indicator.download_source_excel&quot;:{&quot;href&quot;:&quot;downloads/data-excel/1.1.1.xlsx&quot;},&quot;indicator.download_source_sdmx&quot;:{&quot;href&quot;:&quot;downloads/data-sdmx/1.1.1.xml&quot;}}"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;REF_AREA&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Batken&quot;,&quot;Jalal-Abad&quot;,&quot;Issyk-Kul&quot;,&quot;Naryn&quot;,&quot;Osh&quot;,&quot;Talas&quot;,&quot;Chui&quot;,&quot;Bishkek (city)&quot;,&quot;Osh (city)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Reference area&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Year&quot;},{&quot;name&quot;:&quot;REF_AREA&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;Batken&quot;,&quot;Jalal-Abad&quot;,&quot;Issyk-Kul&quot;,&quot;Naryn&quot;,&quot;Osh&quot;,&quot;Talas&quot;,&quot;Chui&quot;,&quot;Bishkek (city)&quot;,&quot;Osh (city)&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Reference area&quot;},{&quot;name&quot;:&quot;GeoCode&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;GeoCode&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;number&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="null"
 >
@@ -464,7 +464,11 @@ data-event-label="high"
         
         
         
-        <th scope="col" class="table-value">Value</th>
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">GeoCode</th>
         
         
       </thead>
@@ -477,7 +481,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.13</td>
+          <td>0.13</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -489,7 +497,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.09</td>
+          <td>0.09</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -501,7 +513,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.29</td>
+          <td>0.29</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -513,7 +529,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.28</td>
+          <td>0.28</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -525,7 +545,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.01</td>
+          <td>0.01</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -537,7 +561,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.28</td>
+          <td>0.28</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -549,7 +577,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.34</td>
+          <td>0.34</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -561,7 +593,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.07</td>
+          <td>0.07</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -573,7 +609,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.06</td>
+          <td>0.06</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -585,7 +625,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.21</td>
+          <td>0.21</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -597,7 +641,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.31</td>
+          <td>0.31</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -609,7 +657,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.28</td>
+          <td>0.28</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -621,7 +673,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.0</td>
+          <td>0.0</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -633,7 +689,11 @@ data-event-label="high"
           
           
           
-          <td class="table-value">0.02</td>
+          <td>0.02</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -715,6 +775,31 @@ data-event-label="Change to Table tab"
 
         
       >Table</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        map
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-mapview"
+          data-bs-target="#mapview"
+          aria-controls="mapview"
+          data-no-disagg="true"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Map tab"
+
+        
+      >Map</button>
     </li>
     
   </ul>
@@ -861,6 +946,64 @@ data-event-label="Change to Table tab"
 </div>
 
 <div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="mapview" class="map">
+          
+<h4 id="map-heading" class="map-title">Доля населения, живущего за международной чертой бедности, в разбивке по территории</h4>
+<div id="map" aria-describedby="table-alternative">
+  <img class="map-loading-image" src="/open-sdg-site-starter/assets/img/loading.gif" alt="Loading map" />
+</div>
+
+
+
+
+<div id="mapFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+
+        
+        <dt>Geographical Area:</dt>
+        <dd>Кыргызская Республика</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
 
         </div>
       
@@ -1494,6 +1637,15 @@ Data are collected on a quarterly basis and an indicator is calculated using dat
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
 
+<script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.zoomshowhide@0.1.0/dist/leaflet-zoom-show-hide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/1.4.0/chroma.min.js"></script>
+<script src="https://cdn.rawgit.com/nezasa/iso8601-js-period/master/iso8601.min.js"></script>
+<script src="https://cdn.rawgit.com/socib/Leaflet.TimeDimension/master/dist/leaflet.timedimension.min.js"></script>
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+<script src="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
@@ -1510,12 +1662,12 @@ Data are collected on a quarterly basis and an indicator is calculated using dat
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220916045105'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20220920205926'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220916045105"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20220920205926"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
