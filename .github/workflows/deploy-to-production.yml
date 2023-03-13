@@ -35,6 +35,7 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: '2.6'
+        rubygems: latest
     - name: Build the site
       run: |
         gem install bundler
