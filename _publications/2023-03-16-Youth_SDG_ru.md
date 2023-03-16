@@ -6,6 +6,6 @@ excerpt: null
 language: ru
 permalink: /sbornikYouth/
 published: true
-img: /upload/Youth_and_SDGs_Cover.pdf
+img: /upload/Youth_and_SDGs_Cover.png
 file: /upload/Youth_and_SDGs_RU.pdf
 ---
