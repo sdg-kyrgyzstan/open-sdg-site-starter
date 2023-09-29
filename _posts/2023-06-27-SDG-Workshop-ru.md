@@ -37,5 +37,7 @@ categories:
 
 <img src="{{ site.baseurl }}/news-images/dsc09281.jpeg" alt="Photo of all participants at the workshop" align="left">
 
+***
 
+<img src="{{ site.baseurl }}/news-images/dsc09287.jpeg" alt="Photo of all participants at the workshop" align="left">
 
