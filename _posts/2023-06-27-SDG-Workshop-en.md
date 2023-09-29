@@ -37,5 +37,6 @@ Experience has shown that there is a need to improve statistical literacy among 
 
 <img src="{{ site.baseurl }}/news-images/dsc09281.jpeg" alt="Photo of all participants at the workshop" align="left">
 
+***
 
-
+<img src="{{ site.baseurl }}/news-images/dsc09287.jpeg" alt="Photo of all participants at the workshop" align="left">
