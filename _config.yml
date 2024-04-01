@@ -206,7 +206,3 @@ logos:
   - language: en
     src: assets/img/SDG_logo_en.png
     alt: Sustainable Development Goals - 17 Goals to Transform our World
-
-    observation_attributes: 
-  - field: COMMENT_OBS 
-    label: ''
