@@ -211,3 +211,8 @@ observation_attributes:
   - field: COMMENT_OBS 
     label: '' 
     
+reporting_status:
+    disaggregation_indicator_count_label: indicators in scope
+
+    use_new_config_forms: true 
+    
