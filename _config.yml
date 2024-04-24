@@ -216,3 +216,5 @@ reporting_status:
 
     use_new_config_forms: true 
     
+disclaimer:
+  hidden: true
