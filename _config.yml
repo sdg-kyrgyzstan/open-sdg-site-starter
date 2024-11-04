@@ -113,7 +113,7 @@ non_global_metadata: indicator.national_metadata
 languages:
   - ru
   - en
-  - kg
+  - ky
   
 metadata_tabs:
   - scope: indicator_information
