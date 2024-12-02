@@ -65,8 +65,8 @@ country:
   
   
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
-frontpage_heading: custom.frontpage_heading
-frontpage_instructions: custom.frontpage_instructions
+frontpage_heading: frontpage.heading
+frontpage_instructions: frontpage.instructions
 
 # Pages
 collections:
