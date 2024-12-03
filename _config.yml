@@ -64,9 +64,7 @@ country:
   adjective: Kyrgyz
   
   
-# Optionally uncomment and update the settings below to control the frontpage heading and instructions.
-frontpage_heading: frontpage.heading
-frontpage_instructions: frontpage.instructions
+
 
 # Pages
 collections:
@@ -195,8 +193,8 @@ map_layers:
     staticBorders: false
 
 frontpage_goals_grid:
-  title: custom.frontpage_heading
-  description: custom.frontpage_instructions
+  title: frontpage.frontpage_heading
+  description: frontpage.frontpage_instructions
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
