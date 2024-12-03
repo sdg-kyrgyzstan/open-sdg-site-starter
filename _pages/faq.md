@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions (FAQ)
+title: Часто задаваемые вопросы (ЧАВО)
 permalink: /faq/
 layout: page
 ---
