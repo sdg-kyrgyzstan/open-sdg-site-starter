@@ -4,40 +4,38 @@ permalink: /faq/
 layout: page
 ---
 
-## What do the different tiers mean?
+## Что означают различные уровни?
 
-Tier 1: Indicator is conceptually clear, has an internationally established methodology and standards are available, and data are regularly produced by countries for at least 50 per cent of countries and of the population in every region where the indicator is relevant.
+Уровень 1: Индикатор концептуально ясен, существует международно установленная методология и доступные стандарты, и данные регулярно производятся странами для не менее чем 50% стран и населения в каждом регионе, где индикатор актуален.
 
-Tier 2: Indicator is conceptually clear, has an internationally established methodology and standards are available, but data are not regularly produced by countries.
+Уровень 2: Индикатор концептуально ясен, существует международно установленная методология и доступные стандарты, но данные не производятся странами регулярно.
 
-Tier 3: No internationally established methodology or standards are yet available for the indicator, but methodology/standards are being (or will be) developed or tested
+Уровень 3: Методология или стандарты для индикатора еще не установлены, но они разрабатываются или тестируются.
 
+Как я могу предложить новые или другие источники данных?
+Если у вас есть отзывы о использованных источниках данных или предложения по новым источникам, пожалуйста, напишите нам на <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
 
-## How do I suggest new or different data sources?
-If you have feedback on the data sources we have used or have suggestions for new data sources then please email us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>.
+## Что означает статус отчетности?
+Мы используем три типа статуса отчетности для индикатора, которые также кодируются цветом:
 
-## What does the reporting status mean?
-We have used three different types of reporting status for an indicator, which are also colour coded:
+* Отчет представлен онлайн (зеленый) – как минимум, основные национальные данные по этому индикатору доступны на этом сайте, но данные могут быть не полностью разбиты по категориям. Мы продолжаем искать дополнительные разбиения.
+* Статистика в процессе (январь) – мы нашли подходящий источник данных для этого индикатора или соответствующего прокси на национальном уровне. Мы в настоящее время контролируем качество данных и подготавливаем их к публикации.
+* Изучение источников данных (красный) – мы все еще ищем подходящий источник данных для этого индикатора.
+* Дополнительная информация о статусе сбора и отчетности данных индикатора будет отображаться в верхней части страницы индикатора.
 
-* Reported online (green) – as a minimum the headline national data for this indicator is available on this website but the data might not be fully disaggregated yet. We are continuing to source additional disaggregations.
-* Statistics in progress (amber) – we have found a suitable source of data for this indicator or relevant proxy at national level. We are currently quality assuring the data and preparing it for publication.
-* Exploring data sources (red) – we are still looking for a suitable data source for this indicator.
+## Как часто будут добавляться новые данные на этот сайт?
+Мы будем добавлять данные, как только они будут собраны и проверены. Это включает в себя новые данные, а также обновления уже опубликованных данных. Мы будем продолжать собирать данные из существующих источников, где это возможно, в сотрудничестве с тематическими экспертами.
 
-Where there is additional information about the status of indicator data collection and reporting, this will be displayed at the top of the indicator page.
+## Что вы делаете для заполнения пробелов в данных?
+Для некоторых индикаторов, хотя у нас могут быть данные на национальном уровне, наши существующие источники данных не всегда позволяют разбивать данные по всем основным группам.
 
-## How often will new data be added to this site?
-We will add data as soon as it has been sourced and checked. This includes new data as well as updates to data we have already published. We will continue to collect data from existing sources where possible, in cooperation with topic experts.
+Это означает, что нам нужно искать новые источники данных, связывать существующие или моделировать данные.
 
-## What are you doing to fill data gaps?
-For some indicators, although we may have data at the national level, our existing data sources don’t always allow us to disaggregate by all main groups.
+## Насколько доступен этот сайт?
+Наша цель – сделать этот сайт как можно более доступным и удобным для всех пользователей. Мы работаем над достижением уровня AA по Руководству по доступности веб-контента (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
 
-This means we need to look for new data sources, link existing ones, or model data.
+## В каких браузерах я могу просматривать этот сайт?
+Наш сайт работает с большинством последних версий популярных браузеров. Существуют некоторые проблемы с использованием сайта на старых версиях браузеров, например, IE8, и мы работаем над их устранением.
 
-## How accessible is this website?
-Our aim is to make this website as accessible and usable as possible for every user. We are working towards meeting AA level of the [Web Content Accessibility Guidelines (WCAG 2.0)](https://www.gov.uk/service-manual/helping-people-to-use-your-service/understanding-wcag-20).
-
-## What browsers can I use to view this website?
-Our website works with most of the latest versions of the commonly used browsers. There are some issues with using the site on older versions of browsers eg IE8 and we are working to fix these.
-
-## Can other countries copy this website?
-Yes. This site is built and hosted using 100% free software and services, so other countries and localities can freely and easily reuse our code. Technical guidance on implementing this platform is available [here](https://open-sdg.readthedocs.io). Countries and localities exploring how to report their own SDGs data can also get support from the [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+## Могут ли другие страны копировать этот сайт?
+Да. Этот сайт построен и размещен с использованием 100% бесплатного программного обеспечения и услуг, поэтому другие страны и местные сообщества могут свободно и легко повторно использовать наш код. Технические рекомендации по реализации этой платформы доступны [здесь](https://open-sdg.readthedocs.io). Страны и местные сообщества, изучающие, как сообщать о своих собственных данных по ЦУР, также могут получить поддержку от [Центра открытых данных (CODE)](http://www.opendataenterprise.org/)  через их [Инициативу по национальной отчетности по ЦУР](https://www.sdgreporting.org/)..
