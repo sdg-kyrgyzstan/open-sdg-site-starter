@@ -1,5 +1,5 @@
 ---
-title: About
+title: О нас
 permalink: /about/
 layout: page
 ---
