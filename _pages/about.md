@@ -4,8 +4,8 @@ permalink: /about/
 layout: page
 ---
 
-This website is for disseminating SDG indicator data. We are at an Alpha stage in development, so the site is still 'work in progress'.
+Этот сайт предназначен для распространения данных по индикаторам ЦУР.
 
-Other countries wishing to reuse this site's underlying platform are welcome to do so for free. Our [Guidance page]({{ site.baseurl }}/guidance/) highlights key information on how to do this, linking to detailed technical instructions available in the platform's [documentation](https://open-sdg.readthedocs.io). The [Center for Open Data Enterprise (CODE)](http://www.opendataenterprise.org/) can also provide guidance and support through their [SDG National Reporting Initiative](https://www.sdgreporting.org/).
+Другие страны, желающие использовать основную платформу этого сайта, могут сделать это бесплатно. Наша [страница с рекомендациями]({{ site.baseurl }}/guidance/) содержит ключевую информацию о том, как это сделать, с ссылками на подробные технические инструкции, доступные в документации платформы. Центр открытых данных (CODE) также может предоставить рекомендации и поддержку через свою Инициативу по национальной отчетности по ЦУР.
 
-If you have any feedback on this website or SDG data then please contact us at <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. The answers to some frequently asked questions are also available in our [FAQ]({{ site.baseurl }}/faq/).
+Если у вас есть какие-либо комментарии по этому сайту или данным ЦУР, пожалуйста, свяжитесь с нами по адресу <a href="mailto:{{site.email_contacts.questions}}">{{site.email_contacts.questions}}</a>. Ответы на некоторые часто задаваемые вопросы также доступны в нашем [FAQ]({{ site.baseurl }}/faq/).
