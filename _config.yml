@@ -193,8 +193,8 @@ map_layers:
     staticBorders: false
 
 frontpage_goals_grid:
-  title: frontpage.frontpage_heading
-  description: frontpage.frontpage_instructions
+  title: frontpage.heading
+  description: frontpage.instructions_short
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
