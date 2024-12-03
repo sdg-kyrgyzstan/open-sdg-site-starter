@@ -1,6 +1,8 @@
 ---
 title: Биз жөнүндө
 permalink: /about/
+permalink: /ky/about/
+language: ky
 layout: page
 ---
 
