@@ -60,7 +60,7 @@ exclude: [vendor, scripts, remotedata]
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: Kyrgyzstan
+  name: Кыргызской Республики
   adjective: Kyrgyz
   
   
@@ -88,7 +88,7 @@ menu:
     # The "translation_key" refers to the key in the SDG Translations repository.
     translation_key: menu.reporting_status
   - path: /news
-    translation_key: menu.updates
+    translation_key: menu.news
   - path: /publications
     translation_key: menu.publications
   - path: /about
@@ -194,7 +194,7 @@ map_layers:
 
 frontpage_goals_grid:
   title: frontpage.heading
-  description: frontpage.instructions_short
+  description: frontpage.instructions
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
