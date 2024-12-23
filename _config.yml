@@ -193,8 +193,8 @@ map_layers:
     staticBorders: false
 
 frontpage_goals_grid:
-  title: Показатели целей в области устойчивого развития Кыргызской Республики
-  description: Нажмите на каждую цель, или поищите статистики для глобальных показателей целей в области устойчивого развития. Для получения данных по показателям Целей устойчивого развития – выберите цель, или введите название показателя через «Поиск».
+  title: frontpage.heading
+  description: frontpage.instructions
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
