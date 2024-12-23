@@ -1,7 +1,7 @@
 ---
 title: Жарыялоо
-permalink: /ky/publications/
 permalink: /publications/
+permalink: /ky/publications/
 language: ky
 layout: publications
 ---

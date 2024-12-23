@@ -1,7 +1,7 @@
 ---
 title: Көп берилүүчү суроолор (КБС)
-permalink: /ky/faq/
 permalink: /faq/
+permalink: /ky/faq/
 language: ky
 layout: page
 ---
