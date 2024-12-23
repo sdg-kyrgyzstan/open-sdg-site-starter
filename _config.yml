@@ -88,7 +88,7 @@ menu:
     # The "translation_key" refers to the key in the SDG Translations repository.
     translation_key: menu.reporting_status
   - path: /news
-    translation_key: menu.news
+    translation_key: custom.news
   - path: /publications
     translation_key: menu.publications
   - path: /about
@@ -193,11 +193,11 @@ map_layers:
     staticBorders: false
 
 frontpage_goals_grid:
-  title: frontpage.heading
-  description: frontpage.instructions
+  title: custom.heading
+  description: custom.instructions
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+  title: custom.intro_title
+  description: custom.intro_body
 
 logos:
   - language: ru
