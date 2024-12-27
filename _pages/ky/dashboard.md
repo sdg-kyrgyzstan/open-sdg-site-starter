@@ -33,7 +33,7 @@ layout: page
     vizElement.style.width='1016px';
 	vizElement.style.height='991px';
 	var scriptElement = document.createElement('script');
-	scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+	scriptElement.src = 'https:&#47;&#47;public.tableau.com&#47;javascripts&#47;api&#47;viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
 
