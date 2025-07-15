@@ -22,14 +22,6 @@
           "status": "complete"
         },
         {
-          "id": "1-1-1-1a",
-          "title": "Extreme poverty rate",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/1-1-1-1a/",
-          "status": "notstarted"
-        },
-        {
           "id": "1-2-1",
           "title": "Proportion of population living below the national poverty line, by sex and age",
           "description": "",
@@ -44,14 +36,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/1-2-1-1/",
           "status": "complete"
-        },
-        {
-          "id": "1-2-1-1a",
-          "title": "Proportion of employed population living below the official poverty line",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/1-2-1-1a/",
-          "status": "notstarted"
         },
         {
           "id": "1-2-2",
@@ -70,40 +54,8 @@
           "status": "complete"
         },
         {
-          "id": "1-3-1-1c",
-          "title": "Proportion of population receiving Monthly Allowance for Low-Income Families, social benefits and pensions",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/1-3-1-1c/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-3-1-1e",
-          "title": "Share of officially registered unemployed",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/1-3-1-1e/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-3-1-1f",
-          "title": "Proportion of population with disabilities receiving pensions Monthly Social Allowance to total population",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/1-3-1-1f/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-3-1-1g",
-          "title": "Proportion of pensioners who receive pensions below the subsistence level of the pensioner",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/1-3-1-1g/",
-          "status": "notstarted"
-        },
-        {
           "id": "1-3-1-a",
-          "title": "Proportion of population receiving monthly allowance for low-income families/'uy-bulogo komok' as percentage of total population",
+          "title": "Proportion of population receiving monthly allowance for low-income families/'uy-bulogo komok', social benefits and pensions",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/1-3-1-a/",
@@ -127,11 +79,19 @@
         },
         {
           "id": "1-3-1-d",
-          "title": "Proportion of pensioners receiving pensions below subsistence minimum as percentage of total population",
+          "title": "Proportion of older persons receiving pensions below the national poverty line",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/1-3-1-d/",
           "status": "complete"
+        },
+        {
+          "id": "1-3-1-а",
+          "title": "global_indicators.1-3-1-а-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/1-3-1-а/",
+          "status": "notstarted"
         },
         {
           "id": "1-4-1",
@@ -246,28 +206,12 @@
           "status": "complete"
         },
         {
-          "id": "2-1-1-1e",
-          "title": "Average per capita consumption of basic food products in relation to the average physiological norms of consumption, in percent",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/2-1-1-1e/",
-          "status": "notstarted"
-        },
-        {
           "id": "2-1-2",
           "title": "Prevalence of moderate or severe food insecurity in the population, based on the Food Insecurity Experience Scale (FIES)",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/2-1-2/",
           "status": "complete"
-        },
-        {
-          "id": "2-1-2-1d",
-          "title": "Ratio of agricultural products  import  to total production in the country",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/2-1-2-1d/",
-          "status": "notstarted"
         },
         {
           "id": "2-1-2-c",
@@ -318,14 +262,6 @@
           "status": "notstarted"
         },
         {
-          "id": "2-3-2-1",
-          "title": "Proportion of product produced by agricultural cooperatives to total volume of products produced in the country",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/2-3-2-1/",
-          "status": "notstarted"
-        },
-        {
           "id": "2-3-2-a",
           "title": "Share of agricultural production by cooperatives in total agricultural production in the country",
           "description": "",
@@ -340,14 +276,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/2-3-2-b/",
           "status": "complete"
-        },
-        {
-          "id": "2-3-3-1c",
-          "title": "Баланс потребления рыбной продукции на душу населения",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/2-3-3-1c/",
-          "status": "notstarted"
         },
         {
           "id": "2-4-1",
@@ -414,11 +342,11 @@
           "status": "notstarted"
         },
         {
-          "id": "2-c-1-1b",
+          "id": "2-c-1-1",
           "title": "Consumer price index for food products",
           "description": "",
           "keywords": "",
-          "href": "/open-sdg-site-starter/en/2-c-1-1b/",
+          "href": "/open-sdg-site-starter/en/2-c-1-1/",
           "status": "notstarted"
         },
         {
@@ -470,6 +398,14 @@
           "status": "complete"
         },
         {
+          "id": "3-2-2-1",
+          "title": "global_indicators.3-2-2-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/3-2-2-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "3-3-1",
           "title": "Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",
           "description": "",
@@ -516,6 +452,14 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/3-4-1/",
           "status": "complete"
+        },
+        {
+          "id": "3-4-1-а",
+          "title": "global_indicators.3-4-1-а-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/3-4-1-а/",
+          "status": "notstarted"
         },
         {
           "id": "3-4-2",
@@ -694,22 +638,6 @@
           "status": "complete"
         },
         {
-          "id": "4-1-1-1a",
-          "title": "Number of children and adolescents 7-17 years old who did not start studies in general education organizations",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/4-1-1-1a/",
-          "status": "notstarted"
-        },
-        {
-          "id": "4-1-1-1b",
-          "title": "Completion rate of primary education",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/4-1-1-1b/",
-          "status": "notstarted"
-        },
-        {
           "id": "4-1-1-a",
           "title": "Number of children and adolescents aged 7–17 (grades 1–11) not enrolled in general education institutions",
           "description": "",
@@ -734,6 +662,14 @@
           "status": "complete"
         },
         {
+          "id": "4-1-2-а",
+          "title": "global_indicators.4-1-2-а-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/4-1-2-а/",
+          "status": "notstarted"
+        },
+        {
           "id": "4-2-1",
           "title": "Proportion of children aged 24-59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",
           "description": "",
@@ -756,14 +692,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/4-2-2-1/",
           "status": "complete"
-        },
-        {
-          "id": "4-2-2-1a",
-          "title": "Proportion of children under the age of six who receive preschool education",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/4-2-2-1a/",
-          "status": "notstarted"
         },
         {
           "id": "4-3-1",
@@ -791,19 +719,11 @@
         },
         {
           "id": "4-4-1-1",
-          "title": "Number of students enrolled in ICT programs within initial vocational, secondary vocational, and higher education",
+          "title": "Number of students enrolled in ICT programmes at the levels of initial, secondary and tertiary vocational education",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/4-4-1-1/",
           "status": "complete"
-        },
-        {
-          "id": "4-4-1-1a",
-          "title": "Number of students studying in the ICT direction in the system of primary vocational, secondary vocational and higher vocational education",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/4-4-1-1a/",
-          "status": "notstarted"
         },
         {
           "id": "4-5-1",
@@ -860,6 +780,14 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/4-c-1/",
           "status": "complete"
+        },
+        {
+          "id": "4-c-1-1",
+          "title": "global_indicators.4-c-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/4-c-1-1/",
+          "status": "notstarted"
         }]
     }
   },
@@ -887,7 +815,7 @@
         },
         {
           "id": "5-2-1-2",
-          "title": "Number of women reporting to health services due to domestic violence",
+          "title": "Number of women who sought healthcare services due to domestic violence",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/5-2-1-2/",
@@ -895,27 +823,11 @@
         },
         {
           "id": "5-2-1-3",
-          "title": "Number of victims of domestic violence, by sex",
+          "title": "Number of victims of domestic violence",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/5-2-1-3/",
           "status": "complete"
-        },
-        {
-          "id": "5-2-1-1a",
-          "title": "Number of women who reported to health authorities for domestic violence",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/5-2-1-1a/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-2-1-1b",
-          "title": "Number of victims of domestic violence",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/5-2-1-1b/",
-          "status": "notstarted"
         },
         {
           "id": "5-2-2",
@@ -1039,19 +951,11 @@
         },
         {
           "id": "6-1-1-1",
-          "title": "Proportion of water samples not complying with water quality standards",
+          "title": "Proportion of water samples non-compliant with hygienic standards for sanitary-chemical and microbiological parameters",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/6-1-1-1/",
           "status": "complete"
-        },
-        {
-          "id": "6-1-1-2b",
-          "title": "Proportion of water samples that do not meet hygienic standards for sanitary-chemical and microbiological indicators",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/6-1-1-2b/",
-          "status": "notstarted"
         },
         {
           "id": "6-2-1",
@@ -1095,19 +999,11 @@
         },
         {
           "id": "6-4-1-1",
-          "title": "Water losses during transport",
+          "title": "Water losses during conveyance",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/6-4-1-1/",
           "status": "complete"
-        },
-        {
-          "id": "6-4-1-2",
-          "title": "Loss of water during transportation",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/6-4-1-2/",
-          "status": "notstarted"
         },
         {
           "id": "6-4-2",
@@ -1159,7 +1055,7 @@
         },
         {
           "id": "6-a-1-1",
-          "title": "Amount of water- and sanitation-related official development assistance that is part of a governmentcoordinated spending plan",
+          "title": "Amount of water- and sanitation-related official development assistance that is part of a governmentcoordinated spending plan, based on national data",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/6-a-1-1/",
@@ -1260,14 +1156,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/7-b-1-1/",
           "status": "complete"
-        },
-        {
-          "id": "7-b-1-1a",
-          "title": "Foreign direct investment inflows for the expansion of energy infrastructure and modernization of technologies to the total volume of foreign direct investment received",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/7-b-1-1a/",
-          "status": "notstarted"
         }]
     }
   },
@@ -1284,6 +1172,22 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/8-1-1/",
           "status": "complete"
+        },
+        {
+          "id": "8-1-1-1",
+          "title": "global_indicators.8-1-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/8-1-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-1-1-2",
+          "title": "global_indicators.8-1-1-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/8-1-1-2/",
+          "status": "notstarted"
         },
         {
           "id": "8-2-1",
@@ -1310,20 +1214,20 @@
           "status": "complete"
         },
         {
-          "id": "8-3-1-2",
-          "title": "Proportion of employed in small and medium enterprises of the total employed population in the economy",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/8-3-1-2/",
-          "status": "notstarted"
-        },
-        {
           "id": "8-3-1-a",
-          "title": "Proportion of employed in small and medium-sized enterprises in total employment",
+          "title": "Proportion of employed in small and medium-sized enterprises (SMEs) in total employment",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/8-3-1-a/",
           "status": "complete"
+        },
+        {
+          "id": "8-3-4-1",
+          "title": "global_indicators.8-3-4-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/8-3-4-1/",
+          "status": "notstarted"
         },
         {
           "id": "8-4-1",
@@ -1372,6 +1276,14 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/8-5-2-1/",
           "status": "complete"
+        },
+        {
+          "id": "8-5-2-2",
+          "title": "global_indicators.8-5-2-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/8-5-2-2/",
+          "status": "notstarted"
         },
         {
           "id": "8-6-1",
@@ -1446,20 +1358,20 @@
           "status": "complete"
         },
         {
-          "id": "8-10-2-2",
-          "title": "Financial indicators of insurance companies",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/8-10-2-2/",
-          "status": "notstarted"
-        },
-        {
           "id": "8-10-2-a",
           "title": "Financial indicators of insurance companies",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/8-10-2-a/",
           "status": "complete"
+        },
+        {
+          "id": "8-10-2-а",
+          "title": "global_indicators.8-10-2-а-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/8-10-2-а/",
+          "status": "notstarted"
         },
         {
           "id": "8-a-1",
@@ -1543,7 +1455,7 @@
         },
         {
           "id": "9-4-1-1",
-          "title": "Pollutants emitted by stationary sources per km2",
+          "title": "Volume of pollutant emissions from stationary sources per km²",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/9-4-1-1/",
@@ -1623,19 +1535,11 @@
         },
         {
           "id": "10-3-1-1",
-          "title": "Number of communications to the Ombudsperson (written and oral)",
+          "title": "Number of complaints submitted to the Ombudsperson",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/10-3-1-1/",
           "status": "complete"
-        },
-        {
-          "id": "10-3-1-1a",
-          "title": "Number of appeals to the Ombudsman",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/10-3-1-1a/",
-          "status": "notstarted"
         },
         {
           "id": "10-4-1",
@@ -1742,6 +1646,14 @@
           "status": "notstarted"
         },
         {
+          "id": "11-3-1-а",
+          "title": "global_indicators.11-3-1-а-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/11-3-1-а/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-3-2",
           "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
           "description": "",
@@ -1795,14 +1707,6 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/11-6-1-2/",
-          "status": "complete"
-        },
-        {
-          "id": "11-6-1-1a",
-          "title": "Disposal of solid waste by households by type",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/11-6-1-1a/",
           "status": "notstarted"
         },
         {
@@ -1822,14 +1726,6 @@
           "status": "notstarted"
         },
         {
-          "id": "11-7-1-1a",
-          "title": "Green spaces in localities, hectares per 1000 people",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/11-7-1-1a/",
-          "status": "notstarted"
-        },
-        {
           "id": "11-7-1-a",
           "title": "Area of green spaces and plantations in settlements per 1,000 inhabitants (hectares)",
           "description": "",
@@ -1843,6 +1739,14 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/11-7-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-7-1a",
+          "title": "Area of green spaces and plantations in settlements per 1,000 inhabitants",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/11-7-1a/",
           "status": "notstarted"
         },
         {
@@ -2318,19 +2222,19 @@
           "status": "notstarted"
         },
         {
-          "id": "15-b-1-1",
-          "title": "Amount of public funds allocated for environmental protection",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/15-b-1-1/",
-          "status": "notstarted"
-        },
-        {
           "id": "15-c-1",
           "title": "Proportion of traded wildlife that was poached or illicitly trafficked",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/15-c-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-c-1-1",
+          "title": "global_indicators.15-c-1-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/15-c-1-1/",
           "status": "notstarted"
         }]
     }
@@ -2371,7 +2275,15 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/16-1-3/",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "16-1-3-1",
+          "title": "global_indicators.16-1-3-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/16-1-3-1/",
+          "status": "notstarted"
         },
         {
           "id": "16-1-4",
@@ -2388,14 +2300,6 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/en/16-1-4-1/",
           "status": "complete"
-        },
-        {
-          "id": "16-1-4-1a",
-          "title": "Proportion of crimes committed in public places and on the streets of the total number of recorded crimes",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/16-1-4-1a/",
-          "status": "notstarted"
         },
         {
           "id": "16-2-1",
@@ -2479,27 +2383,11 @@
         },
         {
           "id": "16-5-1-2",
-          "title": "Number of persons convicted of official misconduct, including corruption and bribery",
+          "title": "Number of persons convicted of offences against public office, including corruption and bribery",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/16-5-1-2/",
           "status": "complete"
-        },
-        {
-          "id": "16-5-1-1a",
-          "title": "Index 'Personal perception of corruption level in state bodies of executive power and local self-government bodies' (results of the 2nd half of the year)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/16-5-1-1a/",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-5-1-1b",
-          "title": "Number of convictions for malfeasance, including corruption and bribery",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/16-5-1-1b/",
-          "status": "notstarted"
         },
         {
           "id": "16-5-2",
@@ -2534,27 +2422,11 @@
           "status": "complete"
         },
         {
-          "id": "16-6-2-1a",
-          "title": "Executive branch of the government satisfaction index",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/16-6-2-1a/",
-          "status": "notstarted"
-        },
-        {
           "id": "16-7-1",
           "title": "Proportions of positions in national and local institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/16-7-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "16-7-1-1",
-          "title": "Proportion of positions in public institutions",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/16-7-1-1/",
           "status": "notstarted"
         },
         {
@@ -2670,22 +2542,6 @@
           "status": "complete"
         },
         {
-          "id": "17-3-1-1a",
-          "title": "Foreign direct investment inflow from abroad by type of economic activity",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/17-3-1-1a/",
-          "status": "notstarted"
-        },
-        {
-          "id": "17-3-1-1b",
-          "title": "Foreign direct investment by country of origin",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/17-3-1-1b/",
-          "status": "notstarted"
-        },
-        {
           "id": "17-3-2",
           "title": "Volume of remittances (in United States dollars) as a proportion of total GDP",
           "description": "",
@@ -2766,20 +2622,20 @@
           "status": "notstarted"
         },
         {
-          "id": "17-11-1-1",
-          "title": "ICT goods import and export as a percentage of total goods import/export",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/17-11-1-1/",
-          "status": "notstarted"
-        },
-        {
           "id": "17-11-1-a",
           "title": "Imports of ICT goods as a percentage of total imports of goods",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/17-11-1-a/",
-          "status": "complete"
+          "status": "notstarted"
+        },
+        {
+          "id": "17-11-1-b",
+          "title": "Exports of ICT goods as a percentage of total exports of goods",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/en/17-11-1-b/",
+          "status": "notstarted"
         },
         {
           "id": "17-12-1",
