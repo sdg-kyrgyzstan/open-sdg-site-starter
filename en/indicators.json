@@ -230,20 +230,12 @@
           "status": "complete"
         },
         {
-          "id": "2-2-3",
-          "title": "Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",
-          "description": "",
-          "keywords": "",
-          "href": "/open-sdg-site-starter/en/2-2-3/",
-          "status": "complete"
-        },
-        {
           "id": "2-2-3-1",
           "title": "Proportion of women with anemia among total female population",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/en/2-2-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-1",
