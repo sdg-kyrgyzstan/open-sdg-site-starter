@@ -49,5 +49,4 @@ jobs:
         BRANCH: master
         FOLDER: _site
         CLEAN: true
-        force_orphan: false
         FORCE: false
