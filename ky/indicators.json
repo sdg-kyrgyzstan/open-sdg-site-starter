@@ -790,6 +790,14 @@
           "status": "notstarted"
         },
         {
+          "id": "5-2-1-1",
+          "title": "Процентная доля женщин в возрасте 15–49 лет, которые заявляют, что муж вправе ударить или побить свою жену по крайней мере по одной из причин",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ky/5-2-1-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "5-2-1-2",
           "title": "Число женщин, обратившихся в органы здравоохранения от семейного насилия",
           "description": "",
@@ -1027,7 +1035,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/6-a-1/",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "6-a-1-1",
@@ -1339,7 +1347,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/8-a-1/",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "8-b-1",
@@ -1451,7 +1459,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/9-a-1/",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "9-b-1",
@@ -1547,7 +1555,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/10-6-1/",
-          "status": "notapplicable"
+          "status": "notstarted"
         },
         {
           "id": "10-7-1",
@@ -1567,7 +1575,7 @@
         },
         {
           "id": "10-7-4",
-          "title": "Proportion of the population who are refugees, by country of origin",
+          "title": "Качкындар болгон калктын үлүшү, келип чыккан өлкө боюнча",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/10-7-4/",
@@ -1923,7 +1931,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/13-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-3-2",
@@ -1931,7 +1939,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/13-3-2/",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "13-a-1",
@@ -2255,7 +2263,7 @@
         },
         {
           "id": "16-1-3-1",
-          "title": "global_indicators.16-1-3-1-title",
+          "title": "Доля женщин в возрасте 15-49 лет, в последние 12 месяцев, подвергшихся физического насилия (ограбления или нападения)",
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/16-1-3-1/",
@@ -2435,7 +2443,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/16-8-1/",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "16-9-1",
@@ -2523,7 +2531,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-3-1-1",
@@ -2587,7 +2595,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-9-1/",
-          "status": "notapplicable"
+          "status": "complete"
         },
         {
           "id": "17-10-1",
@@ -2646,6 +2654,14 @@
           "status": "complete"
         },
         {
+          "id": "17-13-1-a",
+          "title": "Глобальный индекс конкурентоспособности",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ky/17-13-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "17-14-1",
           "title": "Туруктуу өнүгүүнүн саясатка шайкеш келишин жогорулатуу механизмдери бар өлкөлөрдүн саны",
           "description": "",
@@ -2660,6 +2676,14 @@
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-15-1/",
           "status": "notapplicable"
+        },
+        {
+          "id": "17-15-1-a",
+          "title": "Индекс человеческого развития",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ky/17-15-1-a/",
+          "status": "notstarted"
         },
         {
           "id": "17-16-1",
