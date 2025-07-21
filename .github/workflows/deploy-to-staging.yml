@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - develop
+  workflow_dispatch:  # позволяет запускать вручную    
   repository_dispatch:
     types: rebuild-staging
   schedule:
