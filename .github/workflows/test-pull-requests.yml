@@ -17,6 +17,12 @@ jobs:
       uses: rlespinasse/github-slug-action@v3.x
     - name: Set the REPOSITORY_URL_SITE environment variable
       run: echo "REPOSITORY_URL_SITE=https://github.com/$GITHUB_REPOSITORY" >> $GITHUB_ENV
+      
+    - name: Debug directory tree
+      run: |
+       pwd
+       ls -al
+
     - name: Build the site
       run: |
         gem install bundler -v 2.4.22
