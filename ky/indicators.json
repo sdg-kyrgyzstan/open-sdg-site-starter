@@ -395,7 +395,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/3-2-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-1",
@@ -451,7 +451,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/3-4-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-4-2",
@@ -531,7 +531,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/3-8-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-9-1",
@@ -1163,7 +1163,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/8-1-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-1-1-2",
@@ -1171,7 +1171,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/8-1-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-2-1",
@@ -1259,7 +1259,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/8-5-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-6-1",
@@ -1451,7 +1451,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/9-5-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "9-a-1",
@@ -1531,7 +1531,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/10-4-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-5-1",
@@ -1603,7 +1603,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/10-b-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "10-c-1",
@@ -1651,7 +1651,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/11-3-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "11-3-2",
@@ -2267,7 +2267,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/16-1-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-1-4",
@@ -2379,7 +2379,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/16-5-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-5-2",
@@ -2507,7 +2507,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-1-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-1-2",
@@ -2574,6 +2574,14 @@
           "status": "complete"
         },
         {
+          "id": "17-6-1-a",
+          "title": "Индекс развития электронного правительства",
+          "description": "",
+          "keywords": "",
+          "href": "/open-sdg-site-starter/ky/17-6-1-a/",
+          "status": "complete"
+        },
+        {
           "id": "17-7-1",
           "title": "Өнүгүп келе жаткан өлкөлөрдү экологиялык жактан туура технологияларды өнүктүрүүгө, которууга, таратууга жана диффузиялоого көмөктөшүү үчүн каржылоонун жалпы суммасы",
           "description": "",
@@ -2619,7 +2627,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-11-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-11-1-b",
@@ -2627,7 +2635,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-11-1-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-12-1",
@@ -2659,7 +2667,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-13-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-14-1",
@@ -2683,7 +2691,7 @@
           "description": "",
           "keywords": "",
           "href": "/open-sdg-site-starter/ky/17-15-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "17-16-1",
