@@ -50,3 +50,4 @@ jobs:
         FOLDER: _site
         CLEAN: true
         FORCE: false
+        
