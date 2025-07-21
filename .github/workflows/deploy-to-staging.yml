@@ -31,7 +31,7 @@ jobs:
         bundle install
         bundle exec jekyll build --baseurl=/${{ env.GITHUB_REPOSITORY_NAME_PART }}
     - name: Deploy to GitHub Pages
-      uses: jamesives/github-pages-deploy-action@v4.5.0
+      uses: jamesives/github-pages-deploy-action@v4
       with:
         token: ${{ secrets.TOKEN }}
         BRANCH: gh-pages
