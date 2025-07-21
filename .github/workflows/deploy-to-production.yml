@@ -45,7 +45,7 @@ jobs:
       uses: jamesives/github-pages-deploy-action@v4.5.0
       with:
         REPOSITORY_NAME: sustainabledevelopment-kyrgyzstan/sustainabledevelopment-kyrgyzstan.github.io
-        ACCESS_TOKEN: ${{ secrets.TOKEN }}
+        token: ${{ secrets.TOKEN }}
         BRANCH: master
         FOLDER: _site
         CLEAN: true
