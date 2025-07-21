@@ -11,7 +11,7 @@ jobs:
       - name: Deploy test
         uses: jamesives/github-pages-deploy-action@v4.5.0
         with:
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
+          token: ${{ secrets.TOKEN }}
           BRANCH: gh-pages
           FOLDER: _site
           CLEAN: true
