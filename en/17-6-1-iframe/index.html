@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20250815074352">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20250815075021">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -153,7 +153,7 @@ var translations = {
         <link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css'  crossorigin=""/>
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin="">
-        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20250815074352">
+        <link rel="stylesheet" href="https://cdn.kiprotect.com/klaro/v0.7/klaro.min.css" crossorigin=""/><link rel="stylesheet" href="/open-sdg-site-starter/assets/css/custom.css?v=20250815075021">
         
 
         
@@ -829,7 +829,9 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Definitions </th>
         <td>
           
-            <p>The indicator of the number of fixed broadband Internet subscribers by speed refers to the number of fixed broadband subscribers on the public Internet, divided by the advertised download speed</p>
+            <p>The indicator defines fixed Internet broadband subscriptions, by speed, refers to the number of fixed-broadband subscriptions to the public Internet, split by advertised download speed (In March 2023, the series description was updated from “Fixed Internet broadband subscriptions per 100
+inhabitants, by speed” to “Fixed broadband subscriptions per 100 inhabitants, by speed”; content in the
+series is the same.)</p>
 
           
         </td>
@@ -845,10 +847,12 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Concepts </th>
         <td>
           
-            <p>The indicator is currently divided into the following subscription speeds:
--256 kbit/s to less than 2 Mbit/s: refers to all fixed broadband Internet subscriptions with advertised speeds downstream, equal to or exceeding 256 kbit/s and less than 2 Mbit/s .
--2 Mbit/s to less than 10 Mbit/s: Applies to all fixed broadband Internet subscriptions with advertised downstream speeds equal to or greater than 2 Mbit/s and less than 10 Mbit/s.
--Equal to or exceed 10 Mbit/s. Applies to all fixed broadband Internet subscriptions with advertised speeds at a low level equal to or exceeding 10 Mbit/s.</p>
+            <p>The indicator is currently broken down by the following subscription speeds:</p>
+<ul>
+  <li>256 kbit/s to less than 2 Mbit/s subscriptions: Refers to all fixed broadband Internet subscriptions with advertised downstream speeds equal to, or greater than, 256 kbit/s and less than 2 Mbit/s.</li>
+  <li>2 Mbit/s to less than 10 Mbit/s subscriptions: Refers to all fixed -broadband Internet subscriptions with advertised downstream speeds equal to, or greater than, 2 Mbit/s and less than 10 Mbit/s.</li>
+  <li>Equal to or above 10 Mbit/s subscriptions (4213_G10). Refers to all fixed -broadband Internet subscriptions with advertised downstream speeds equal to, or greater than, 10 Mbit/s.</li>
+</ul>
 
           
         </td>
@@ -864,7 +868,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Rationale and interpretation </th>
         <td>
           
-            <p>The Internet has become an increasingly important tool for providing access to information and can contribute to the development and expansion of regional and international cooperation in the field of science and technology, innovation and access to them, as well as the expansion of knowledge exchange. High-speed Internet access is essential to ensure that Internet users have high-quality Internet access and can use the growing amount of Internet content, including user-generated content, services, and information.</p>
+            <p>The Internet has become an increasingly important tool to provide access to information, and can help foster and enhance regional and international cooperation on, and access to, science, technology and innovations, and enhance knowledge sharing. High-speed Internet access is important to ensure that Internet users have quality access to the Internet and can take advantage of the growing amount of Internet content – including user-generated content –, services and information.</p>
 
           
         </td>
@@ -880,7 +884,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Method of computation </th>
         <td>
           
-            <p>Согласно определения и методу в Справочнике МСЭ по сбору административных данных в области электросвязи/ИКТ. Было взято абонентские подключения со скоростями и разделено на численность постоянного населения на 1 января и умножено на 100.</p>
+            <p>According to the definition and methodology in the ITU Handbook on Telecommunications/ICT Administrative Data Collection Administrative Data Handbook.</p>
 
           
         </td>
@@ -896,7 +900,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Comments and limitations </th>
         <td>
           
-            <p>Данный показатель относиться к фиксированным (проводным) широкополосным технологиям и не включает технологии беспроводного широкополосного доступа. Единица измерения: На 100 жителей</p>
+            <p>This Indicator refers to fixed (wired) broadband technologies and does not include wireless broadband access technologies. Unit of measure: Per 100 inhabitants</p>
 
           
         </td>
@@ -935,7 +939,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Data availability and gaps </th>
         <td>
           
-            <p>Агентством связи на ежегодной основе разрабатываются годовые отчеты о деятельности Агентства связи, в которые находятся в свободном доступе и размещены на официальном сайте Агентства связи, в котором отражается общее количество пользователей Интернет, включая беспроводной и мобильный.</p>
+            <p>The Agency develops annual reports on the Agency’s activities, which are freely available at the Agency’s official website and reflect the total number of Internet users, including wireless and mobile users.</p>
 
           
         </td>
@@ -951,7 +955,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Disaggregation </th>
         <td>
           
-            <p>По скорости интернета: 256 кбит/с до менее 2 Мбит/с, 2 Мбит/с до менее 10 Мбит/с, равны или превышают 10 Мбит/с.</p>
+            <p>By Internet speed: 256 kbps to less than 2 Mbps, 2 Mbps to less than 10 Mbps, equal to or exceed 10 Mbps.</p>
 
           
         </td>
@@ -967,7 +971,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Comparability with international data/standards </th>
         <td>
           
-            <p>МСЭ разрабатывает международные определения, стандарты и методики для измерения информационного общества и информационной экономики и в тесном сотрудничестве с другими региональными и международными организациями и через свои тематические группы экспертов МСЭ является одним из основателей и ключевым партнером в Партнёрстве по измерению ИКТ в целях развития, помогает отслеживать целевые показатели ЦУР, а также является членом Комитета ООН по координации статистической деятельности.</p>
+            <p>The ITU develops international definitions, standards and methodologies for measuring information society and information economy and, in close cooperation with other regional and international organizations and through thematic expert groups; the ITU is a founder and a key partner in the Partnership on Measuring ICT for Development, assisting to keep track of SDG targets, and a member of the UN Committee for the Coordination of Statistical Activities (CCSA).</p>
 
           
         </td>
@@ -983,7 +987,14 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">References and documentation </th>
         <td>
           
-            <p>Administrative statistical reporting forms and instructions for completing them are publicly available on the website of the Service for Regulation and Supervision of the Communications Industry under the Ministry of Digital Development and Innovative Technologies of the Kyrgyz Republic. https://nas.gov.kg/dp/formy-otchetnosti/</p>
+            <p>2)The Kyrgyz Republic SDG National Reporting Platform: https://sustainabledevelopment-kyrgyzstan.github.io Data are released twice a year, In July and December, in the Wor​ld Telecommun​ic​ation/ICT Indicators
+Database​​ and the ITU DataHub, see https://datahub.itu.int/.  International Telecommunication Union (ITU) Handbook for the Collection of Administrative Data on
+Telecommunications/ICT 2020: https://www.itu.int/en/ITU-
+D/Statistics/Pages/publications/handbook.aspx  . URL:
+http://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx
+References:
+ITU Handbook for the Collection of Administrative Data on Telecommunications/ICT 2020:
+https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx                                                                   1)  Administrative statistical reporting forms and instructions for completing them are publicly available on the website of the Service for Regulation and Supervision of the Communications Industry under the Ministry of Digital Development and Innovative Technologies of the Kyrgyz Republic. https://nas.gov.kg/dp/formy-otchetnosti/</p>
 
           
         </td>
@@ -999,7 +1010,8 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Data sources </th>
         <td>
           
-            <p>Data collection on the number of fixed (wired) broadband Internet subscribers is carried out in accordance with the forms of administrative statistical reporting provided by licensees on a quarterly basis.</p>
+            <p>1) Data collection on the number of fixed (wired) broadband Internet subscribers is carried out in accordance with the forms of administrative statistical reporting provided by licensees on a quarterly basis.                            2) Based on an additional request, the State Committee of Information Technologies and Communications of the Kyrgyz Republic submits the data on the number of stationary Internet broadband subscriptions disaggregated by speed to the National Statistical Committee. 
+Data on the number of fixed (wired) broadband Internet subscribers are collected according to administrative statistical reporting forms on licensed types of activities in the field of electric and postal communication, approved by SAC under SCITC KR and the NSC KR. Licensed electric communication operators fill in these reporting forms on a quarterly basis.</p>
 
           
         </td>
@@ -1015,7 +1027,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Data collection methods </th>
         <td>
           
-            <p>According to the administrative statistical reporting forms, licensees provide quarterly reports.</p>
+            <p>1) According to the administrative statistical reporting forms, licensees provide quarterly reports.</p>
 
           
         </td>
@@ -1118,7 +1130,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Organization </th>
         <td>
           
-            <p>Service for Regulation and Supervision in the Communications Industry under the Ministry of Digital Development and Innovative Technologies of the Kyrgyz Republic</p>
+            <p>1) Service for Regulation and Supervision in the Communications Industry under the Ministry of Digital Development and Innovative Technologies of the Kyrgyz Republic    2) National Statistical Committee of the Kyrgyz Republic (Department of Trade and Services Statistics, Information and Communication Technologies, and Tourism)</p>
 
           
         </td>
@@ -1134,7 +1146,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Contact person(s)/focal point </th>
         <td>
           
-            <p>Langovaya A.A.</p>
+            <p>1) Langovaya A.A.  2) Tekeeva L.A.</p>
 
           
         </td>
@@ -1150,7 +1162,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Contact person's email </th>
         <td>
           
-            <p>a.langovaya@nas.gov.kg</p>
+            <p>1) a.langovaya@nas.gov.kg  2) Ltekeeva@stat.kg</p>
 
           
         </td>
@@ -1166,7 +1178,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Contact person's phone </th>
         <td>
           
-            <p>54-60-89</p>
+            <p>1) 54-60-89  2) 0 (312) 32-47-25</p>
 
           
         </td>
@@ -1182,7 +1194,7 @@ data-event-label="Change to custom.data_reporter tab"
         <th scope="row">Organization website </th>
         <td>
           
-            <p>https://nas.gov.kg/</p>
+            <p>1) https://nas.gov.kg/   2) www.stat.gov.kg</p>
 
           
         </td>
@@ -1239,12 +1251,12 @@ data-event-label="Change to custom.data_reporter tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20250815074352'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20250815075021'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20250815074352"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20250815075021"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
